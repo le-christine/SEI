@@ -10,8 +10,8 @@ Time   |         Topic
 10-11  | [My first Java](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/2-My-First-Java-Lesson)
 11-1:30 | [Data types + variables](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/3-Data-Types-and-Variables-Lesson) / lunch
 1:30-3 | [Control flow / loops](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/4-Control-Flow-and-Loops-Lesson)
-3-5    | [Methods and scope](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/5-Methods-and-Scope-Lesson)
-HW     | [Methods lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/methods-lab)
+3-5    | [Methods and scope](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/5-1Methods-and-Scope-Lesson)
+HW     | [Methods lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/5-2-Methods-and-Scope-Lab)
 
 ### Tuesday
 
