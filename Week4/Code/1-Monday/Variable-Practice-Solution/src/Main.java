@@ -1,5 +1,3 @@
-package com.ga;
-
 /** This is created to be independant practice for working with dataTypes variables. Data sources are found at the below the class **/
 
 public class Main {
