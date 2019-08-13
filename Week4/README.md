@@ -31,7 +31,7 @@ Time     |         Topic
 9-10     | morning exercise - HW review
 10-11:30 | [jUnit](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/2-jUnit-Testing-Lesson)
 11:30-2  | [jUnit lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/3-jUnit-Lab) / lunch
-2-2:30   | [Intro to OOP](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/4-Intro-to-OOP%0A)
+2-2:30   | [Intro to OOP](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/4-Intro%20to%20OOP)
 2:30-4   | [Objects + Classes ](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/5-Objects-and-Classes)
 4-5      | [Creating classes lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/6-Creating-Classes-Lab)
 HW       | [Finish lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/3-Wednesday/6-Creating-Classes-Lab)
