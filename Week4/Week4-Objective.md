@@ -6,10 +6,10 @@
 
 Time   |         Topic 
 ---    | --------------------- 
-9-10   | [Computers, Java, IDE ](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/computers-and-java-lesson) 
-10-11  | [My first Java](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/my-first-java-lesson)
-11-1:30 | [Data types + variables](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/data-types-and-variables-lesson) / lunch
-1:30-3 | [Control flow / loops](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/control-flow-and-loops-lesson)
+9-10   | [Computers, Java, IDE ](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/1-Computers-and-Java-Lesson) 
+10-11  | [My first Java](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/2-My-First-Java-Lesson)
+11-1:30 | [Data types + variables](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/3-Data-Types-and-Variables-Lesson) / lunch
+1:30-3 | [Control flow / loops](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/1-Monday/4-Control-Flow-and-Loops-Lesson)
 3-5    | [Methods and scope](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/methods-and-scope-lesson)
 HW     | [Methods lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/methods-lab)
 
