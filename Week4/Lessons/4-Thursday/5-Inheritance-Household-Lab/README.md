@@ -27,7 +27,7 @@ You can express the state or action of something by printing messages to the com
 
 #### Starter Code
 
-In the [starter code](starter-code) folder, you'll find a `Driver` class with the `main` method. This class will be where you'll implement all of your households.
+In the [starter code](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Code/4-Thursday/Inheritance-Household/Starter/src/AbstractionLab) folder, you'll find a `Driver` class with the `main` method. This class will be where you'll implement all of your households.
 
 #### Deliverable
 
