@@ -41,7 +41,7 @@ HW       | [Finish lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tre
 Time     |         Topic 
 ---      | ----------------------
 9-10     | morning exercise - HW review
-10-11:30 | [Subclasses](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/oop-java/subclasses-lesson)
+10-11:30 | [Subclasses](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/4-Thursday)
 11:30-2  | [Subclassing lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/oop-java/subclassing-lab) / lunch
 2-3:30   | [Abstract classes + interfaces](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/oop-java/abstract-classes-interfaces-lesson)
 3:30-5   | [Abstract classes lab ](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/oop-java/inheritance-abstraction-lab)
