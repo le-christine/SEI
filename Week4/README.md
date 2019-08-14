@@ -21,7 +21,7 @@ Time     |         Topic
 10-11:30 | [Arrays + ArrayLists](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/1-Arrays-Arraylists-Lesson)
 11:30-2  | [LinkedLists + Maps](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/2-Linkedlists-Maps-Lesson) / lunch
 2-3:30   | [Collections lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/3-Organizing-Information-Lab)
-3:30-5   | [Debugging](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/4-Debugging-Lesson) / [exception handling](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/exception-handling-lesson)
+3:30-5   | [Debugging](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/4-Debugging-Lesson) / [exception handling](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/5-Exception-Handling-Lesson)
 HW       | Finish [exception handling ](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/5-Exception-Handling-Lesson)
 
 ### Wednesday 
