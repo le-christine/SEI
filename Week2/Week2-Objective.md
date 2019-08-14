@@ -6,34 +6,34 @@
 
 Time     |         Topic
 ---      | ---------------------
-9-10     | [what is programming](https://git.generalassemb.ly/GA-Cognizant/dev-foundations/blob/master/intro-to-programming.md)
-10-12:30 | [JS Data types + variables](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-data-types-and-variables-lesson)
-12:30-3  | [Arrays](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-arrays-lesson) / lunch
-3-4:30   | [Control Flow](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-control-flow-lesson)
-4:30-5   | [Iterating Arrays lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/blob/master/javascript-iterating-arrays-hw/README.md)
-HW       | Finish [Iterating Arrays lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/blob/master/javascript-iterating-arrays-hw/README.md)
+9-10     | [what is programming](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/1-Intro-To-Programming.md)
+10-12:30 | [JS Data types + variables](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/2-Data-Types-And-Variables.md)
+12:30-3  | [Arrays](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/3-Arrays.md) / lunch
+3-4:30   | [Control Flow](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/4-Control-Flow.md)
+4:30-5   | [Iterating Arrays lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/5-Iterating-Arrays-Lab.md)
+HW       | Finish [Iterating Arrays lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/1-Monday/5-Iterating-Arrays-Lab.md)
 
 
 ### Tuesday
 
 Time     |         Topic
 ---      | ----------------------
-9-10     | [what is pseudocode](https://git.generalassemb.ly/GA-Cognizant/dev-foundations/blob/master/intro-to-pseudocoding.md)
-10-12    | [Functions + scope](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-functions-and-scope-lesson)
-12-2:30  | [Functions lab / lunch](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-functions-lab)
-2:30-4   | [Objects](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-objects-lesson)
-4-5      | [Objects lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-objects-lab)
-HW       | Finish [Objects lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-objects-lab)
+9-10     | [what is pseudocode](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/1-Intro-To-Pseudocoding/1-Intro-To-Pseudocoding.md)
+10-12    | [Functions + scope](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/2-Functions-And-Scope/2-Functions-And-Scope.md)
+12-2:30  | [Functions lab / lunch](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/3-Functions-Lab/3-Functions-Lab.md)
+2:30-4   | [Objects](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/4-Objects.md)
+4-5      | [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab.md)
+HW       | Finish [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab.md)
 
 
 ### Wednesday
 
 Time   |         Topic
 ---    | ---------------------
-9-10   | [functions practice](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-functions-morning-exercise)
-10-1   | [DOM Manipulation](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-dom-manipulation-lesson) / lunch
-1-3:30 | [Event handling](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-events-lesson)
-3-5    | [DOM lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-dom-manipulation-lab)
+9-10   | [functions practice](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/3-Wednesday/1-Functions-Lab/1-Functions-Lab.md)
+10-1   | [DOM Manipulation](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/3-Wednesday/2-DOM-Manipulation/2-DOM-Manipulation.md) / lunch
+1-3:30 | [Event handling](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/3-Wednesday/3-Events-Lesson/3-Events-Lesson.md)
+3-5    | [DOM lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/3-Wednesday/4-DOM-Manipulation-Lab)
 HW     | [Events](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-events-hw-pixart-js)
 
 
