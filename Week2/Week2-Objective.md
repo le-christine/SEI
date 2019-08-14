@@ -21,9 +21,9 @@ Time     |         Topic
 9-10     | [what is pseudocode](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/1-Intro-To-Pseudocoding/1-Intro-To-Pseudocoding.md)
 10-12    | [Functions + scope](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/2-Functions-And-Scope/2-Functions-And-Scope.md)
 12-2:30  | [Functions lab / lunch](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/3-Functions-Lab/3-Functions-Lab.md)
-2:30-4   | [Objects](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/4-Objects.md)
-4-5      | [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab.md)
-HW       | Finish [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab.md)
+2:30-4   | [Objects](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/4-Objects/4-Objects.md)
+4-5      | [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab/5-Objects-Lab.md)
+HW       | Finish [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab/5-Objects-Lab.md)
 
 
 ### Wednesday
