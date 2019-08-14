@@ -20,7 +20,7 @@ Time     |         Topic
 9-10     | morning exercise - HW review
 10-11:30 | [Arrays + ArrayLists](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/1-Arrays-Arraylists-Lesson)
 11:30-2  | [LinkedLists + Maps](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/2-Linkedlists-Maps-Lesson) / lunch
-2-3:30   | [Collections lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/organizing-information-lab)
+2-3:30   | [Collections lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/2-Tuesday/3-Organizing-Information-Lab)
 3:30-5   | [Debugging](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/debugging-lesson) / [exception handling](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/exception-handling-lesson)
 HW       | Finish [exception handling ](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/exception-handling-lesson)
 
