@@ -34,19 +34,19 @@ Time   |         Topic
 10-1   | [DOM Manipulation](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/3-Wednesday/2-DOM-Manipulation/2-DOM-Manipulation.md) / lunch
 1-3:30 | [Event handling](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/3-Wednesday/3-Events-Lesson/3-Events-Lesson.md)
 3-5    | [DOM lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/3-Wednesday/4-DOM-Manipulation-Lab)
-HW     | [Events](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-events-hw-pixart-js)
+HW     | [Events Lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/3-Wednesday/5-Events-HW)
 
 
 ### Thursday
 
 Time |         Topic
 ---  | ----------------------
-9-10 | [testing without code exercise](https://git.generalassemb.ly/GA-Cognizant/agile-extreme-programming/blob/master/testing-without-code.md)
-10-12:30 | [Mocha + Chai testing](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-testing-with-mocha-and-chai-lesson) / lunch
-1-2  | [Closures](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/javascript-closures-lesson)
-2-4  |[ Intro to APIs and AJAX](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/apis-and-ajax-lesson)
-4-5  | [APIs lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/blob/master/apis-ajax-and-api-calls-lab/README.md)
-HW   | [Open weather API](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/open-weather-api-hw)
+9-10 | [testing without code exercise](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/4-Thursday/1-Testing-Without-Code/1-Testing-Without-Code.md)
+10-12:30 | [Mocha + Chai testing](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/4-Thursday/2-Testing-With-Mocha-And-Chai/2-Testing-With-Mocha-And-Chai.md) / lunch
+1-2  | [Closures](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/4-Thursday/3-Closures/3-Closures.md)
+2-4  |[ Intro to APIs and AJAX](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/4-Thursday/4-APIs-And-AJAX-Lesson/4-APIs-And-AJAX-Lesson.md)
+4-5  | [APIs lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/4-Thursday/5-Apis-Ajax-And-Api-Calls-Lab)
+HW   | [Open weather API](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/4-Thursday/6-Open-Weather-API-HW)
 
 
 ### Friday
@@ -54,7 +54,7 @@ HW   | [Open weather API](https://git.generalassemb.ly/GA-Cognizant/javascript-a
 Time       |      Topic
 ---        | ----------------
 9-10:30    | Outcomes
-10:30-3    | [Giffaw lab](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/blob/master/apis-lab/README.md) / lunch
-3-4        | [Week in review](https://git.generalassemb.ly/GA-Cognizant/additional-material/blob/master/week-in-review.md)
-4-5        | [Project 1 intro](https://git.generalassemb.ly/GA-Cognizant/amex-projects/blob/master/project-1.md)
+10:30-3    | [Giffaw lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/5-Friday/1-APIs-Lab) / lunch
+3-4        | [Week in review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/5-Friday/2-Week-In-Review/2-Week-In-Review.md)
+4-5        | [Project 1 intro](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/5-Friday/3-First-Project/3-First-Project.md)
 HW         | start project 1
