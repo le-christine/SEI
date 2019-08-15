@@ -44,7 +44,7 @@ With the advent of fast internet connections and cloud-hosted virtual machines (
 
 **Microservice architecture** takes advantage of modern tools by breaking up large applications into small, individual apps. Each of these apps can be deployed, monitored, and maintained independently, but they all work together to solve large problems. 
 
-![](./images/microservice.png)
+![](images/microservice.png)
 
 A common microservices term is **coupling**. Microservices are loosely coupled, while monoliths are tightly coupled.
 
