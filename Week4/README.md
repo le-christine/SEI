@@ -52,11 +52,11 @@ HW       | [Abstract classes lab pt 2](https://git.generalassemb.ly/sureshmelvin
 Time        |      Topic 
 ---         | ----------------
 9-10:30     | Outcomes
-10:30-11:30 | [Garbage collection](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/garbage-collection)
-11:30-2     | [Lambda expressions](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/functional-programming-lesson/01-lambda-expressions) / lunch
-2-3:30      | [Stream processing](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/functional-programming-lesson/02-stream-processing-and-collectors)
-3:30-4      | [start Streams lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/functional-programming-lesson/05-functions-lab)
-4-5         | [Week in review](https://git.generalassemb.ly/GA-Cognizant/additional-material/blob/master/week-in-review.md)
-HW          | [finish streams lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/functional-programming-lesson/05-functions-lab)
+10:30-11:30 | [Garbage collection](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/1-Garbage-Collection)
+11:30-2     | [Lambda expressions](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/2-Lambda-Expressions) / lunch
+2-3:30      | [Stream processing](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/3-Stream-Processing)
+3:30-4      | [start Streams lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/6-Start-Streams-Lab)
+4-5         | [Week in review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/7-Week-in-Review)
+HW          | [finish streams lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Lessons/5-Friday/8-Finish-Streams-Lab)
 
 
