@@ -10,12 +10,14 @@ class Post extends Component {
       body: props.body
     }
   }
+
   handleClick (e) {
     let newBody = prompt("What should the new body be?")
     this.setState({
       body: newBody
     })
   }
+
   render() {
     let comments = this.props.comments.map( (comment, index) => (
       // each comment needs a key attribute to keep track of data passed as props
