@@ -24,15 +24,15 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | [Opening](#opening-5-mins)  | Learning Objectives |
-| 10 min  | [Introduction](#introduction-data-types-in-java-10-mins)  | Data Types in Java |
-| 15 min  | [Demo](#demo-lets-start-with-numbers-15-mins)  | Let's Start With Numbers |
-| 10 min  | [Demo](#demo-using-special-number-operators-10-mins)  | Using Special Number Operators |
-| 10 min  | [Introduction](#introduction-primitives-vs-objects-10-mins)  | Primitives vs. Objects |
-| 15 min  | [Demo](#demo-creating-a-new-string-15-mins)  | Creating a New String |
-| 10 min  | [Demo](#demo-converting-between-data-types-10-mins)  | Converting Between Data Types |
-| 15 min  | [Independent Practice](#independent-practice-15-mins)  | Practice |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 10 min  | [Introduction](#introduction-data-types-in-java-10-min)  | Data Types in Java |
+| 15 min  | [Demo](#demo-lets-start-with-numbers-15-min)  | Let's Start With Numbers |
+| 10 min  | [Demo](#demo-using-special-number-operators-10-min)  | Using Special Number Operators |
+| 10 min  | [Introduction](#introduction-primitives-vs-objects-10-min)  | Primitives vs. Objects |
+| 15 min  | [Demo](#demo-creating-a-new-string-15-min)  | Creating a New String |
+| 10 min  | [Demo](#demo-converting-between-data-types-10-min)  | Converting Between Data Types |
+| 15 min  | [Independent Practice](#independent-practice-15-min)  | Practice |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 <a name="opening"></a>
 
