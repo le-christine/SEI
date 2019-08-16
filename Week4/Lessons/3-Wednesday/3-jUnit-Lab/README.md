@@ -30,7 +30,7 @@ Using the code from a previous lab (where we wrote several basic functions), you
 
 ## Exercise
 
-Start the code you already created in [this lab](https://git.generalassemb.ly/GA-Cognizant/foundational-java/tree/master/java-basics/functions-lab). Write tests using JUnit to ensure each function is correct.
+Start the code you already created in [this lab](/Week4/Lessons/1-Monday/5-2-Methods-and-Scope-Lab). Write tests using JUnit to ensure each function is correct.
 
 ## Additional Resources
 

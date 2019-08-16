@@ -104,9 +104,10 @@ public class Student {
 ```
 Before writing unit tests for the class we just created, we have to first add the JUnit library in our project. 
 
-If you're working in **Eclipse**, right-click on the project folder -> Go to Build Path -> click Configure Build Path. A window will open, go to Libraries tab -> click Add Library -> select JUnit -> click Next then Finish -> click Apply and Close.
+Using JetBrain's IntelliJ short cut `Ctrl+Shift+T` or `Cmd+Shift+T` on the Student class allows us to enter the JUnit window. Afterwards, we can use IntelliJ to insert our External Libraries for JUnit4 and JUnit 5.4.
 
 Then, we'll create a new test in the `src/test` creating the same package we did for `Student` class, `co.ga.junittesting` and call it `StudentTest`.
+To do this, replace `main` with `test` in the Destination package field.
 
 The idea of testing is to have methods that **implement** the class being tested and **assert** that the methods of the class are working.
 
@@ -124,12 +125,10 @@ import static org.junit.Assert.*;
 public class StudentTest {
     @Test
     public void testIfFullNameIsCorrect() {
-
     }
 
     @Test
     public void testIfLetterGradeIsCorrect() {
-
     }
 }
 ```

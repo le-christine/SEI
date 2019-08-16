@@ -14,10 +14,10 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | Opening  | Learning Objectives |
-| 10 min  | Introduction  | The Four Principles of OOP |
-| 10 min  | Demo  | Classes and Modifiers |
-| 5 min  | Conclusion  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 10 min  | [Introduction](#the-four-principles-of-oop-10-min)  | The Four Principles of OOP |
+| 10 min  | [Demo](#classes-and-modifiers-10-min)  | Classes sand Modifiers |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 

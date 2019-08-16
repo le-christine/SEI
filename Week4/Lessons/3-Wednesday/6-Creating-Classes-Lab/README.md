@@ -30,7 +30,7 @@ In this lab, you'll apply your knowledge of classes to build a Java program that
 
 #### Starter Code
 
-You'll need to complete the constructor, getters, and setters in the provided `Animal.java` file. `Main.java` contains comments guiding you on the code you need to write.
+You'll need to complete the constructor, getters, and setters in the provided `Animal.java` file. `Main.java` contains comments guiding you on the [code](/Week4/Code/3-Wednesday/Creating-Classes/Starter) you need to write.
 
 #### Deliverable
 
