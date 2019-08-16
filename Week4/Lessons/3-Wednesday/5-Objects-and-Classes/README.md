@@ -17,12 +17,12 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | Opening  | Learning Objectives | 
-| 15 min | Guided Practice | Class Creation |
-| 20 min | Guided Practice | Class Features | 
-| 10 min | Independent Practice | Calculator Class |
-| 20 min | Guided and Independent Practice | Constructors |
-| 5 min  | Conclusion  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives | 
+| 15 min | [Guided Practice](#guided-practice-step-by-step-class-creation-15-min) | Class Creation |
+| 20 min | [Guided Practice](#guided-practice-class-features-20-min) | Class Features | 
+| 10 min | [Independent Practice](#independent-practice-calculator-class-10-min) | Calculator Class |
+| 20 min | [Guided and Independent Practice](#constructors-20-min) | Constructors |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 
