@@ -1,6 +1,7 @@
 --
 -- Insert data into the database for sql-joins-lesson Guided Practice (with PostgreSQL)
 -- https://git.generalassemb.ly/GA-Cognizant/databases/tree/master/sql-joins-lesson
+-- NOTE: Change your User folder for the copy to work!! 
 --
 
 BEGIN;
