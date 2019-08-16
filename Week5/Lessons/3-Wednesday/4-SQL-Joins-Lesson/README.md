@@ -144,7 +144,7 @@ The returned data includes information about `EMP_ID`, `NAME`, and `DEPT`.
 
 ## Guided Practice: Inner JOINs in Java (30 min)
 
-Import the project [starter code](starter-code). Use commands in [`commands.md`](commands.md) to create a database called `COMPANY`, along with the database tables, and then insert data. 
+Import the project [starter code](/Week5/Code/3-Wednesday/4-SQL-Joins-Lesson/starter-code). Use commands in [`commands.md`](/Week5/Code/3-Wednesday/4-SQL-Joins-Lesson/starter-code/commands.md) to create a database called `COMPANY`, along with the database tables, and then insert data. 
 
 If we were writing plain SQL, our query asking for the name of the person would look like this:
 
