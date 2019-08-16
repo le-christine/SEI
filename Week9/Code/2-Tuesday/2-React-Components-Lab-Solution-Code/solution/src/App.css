@@ -1,0 +1,46 @@
+.App {
+    margin: 50px;
+}
+
+h1 {
+    color: purple;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    height: 150px;
+    padding: 0px 75px;
+}
+
+.tabs {
+    background-color: gray;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.tabs:first-child {
+    background-color: darkGray;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid darkGray;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 25vw;
+}
