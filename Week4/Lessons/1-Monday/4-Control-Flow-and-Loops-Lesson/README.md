@@ -22,15 +22,15 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | [Opening](#opening-5-mins)  | Learning Objectives |
-| 10 min  | [Introduction](#introduction-logical-operators-and-control-flow-10-mins)  | Logical Operators and Control Flow |
-| 10 min  | [Demo](#demo-conditional-statements-10-mins)  | Conditional Statements |
-| 15 min  | [Guided Practice](#guided-practice-boolean-or-logical-operators-15-mins)  | Boolean or Logical Operators |
-| 10 min  | [Demo](#demo-comparison-operators-10-mins)  | Comparison Operators |
-| 10 min  | [Introduction](#introduction-switch-statement-10-mins)  | `switch` Statements |
-| 15 min  | [Demo](#demo-loops-15-mins)  | Loops |
-| 15 min  | [Independent Practice](#independent-practice-fizz-buzz-15-mins)  |  Fizz Buzz |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 10 min  | [Introduction](#introduction-logical-operators-and-control-flow-10-min)  | Logical Operators and Control Flow |
+| 10 min  | [Demo](#demo-conditional-statements-10-min)  | Conditional Statements |
+| 15 min  | [Guided Practice](#guided-practice-boolean-or-logical-operators-15-min)  | Boolean or Logical Operators |
+| 10 min  | [Demo](#demo-comparison-operators-10-min)  | Comparison Operators |
+| 10 min  | [Introduction](#introduction-switch-statements-10-min)  | `switch` Statements |
+| 15 min  | [Demo](#demo-loops-15-min)  | Loops |
+| 15 min  | [Independent Practice](#independent-practice-fizz-buzz-15-min)  |  Fizz Buzz |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 

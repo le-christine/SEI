@@ -22,15 +22,15 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | Opening  | Learning Objectives |
-| 10 min | Introduction  |  Lists |
-| 5 min  | Demo| Lists |
-| 10 min | Independent Practice  | Lists |
-| 10 min | Introduction  |  Maps |
-| 10 min | Demo  | Maps |
-| 10 min | Guided Practice  | Maps |
-| 15 min | Independent Practice  | Collections |
-| 5 min  | Conclusion  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 10 min | [Introduction](#introduction-lists-10-min)  |  Lists |
+| 5 min  | [Demo](#demo-lists-5-min)  | Lists |
+| 10 min | [Independent Practice](#independent-practice-lists-10-min)  | Lists |
+| 10 min | [Introduction](#introduction-maps-10-min)  |  Maps |
+| 10 min | [Demo](#demo-maps-10-min)  | Maps |
+| 10 min | [Guided Practice](#guided-practice-maps-10-min)  | Maps |
+| 15 min | [Independent Practice](#independent-practice-collections-15-min)  | Collections |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 

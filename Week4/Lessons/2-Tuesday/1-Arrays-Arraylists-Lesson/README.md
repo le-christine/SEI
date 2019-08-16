@@ -21,16 +21,16 @@ At the end of this lesson, you'll be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | [Opening](#opening-5-mins)  | Learning Objectives |
-| 5 min  | [Introduction](#introduction-basic-arrays-5-mins)  | Basic Arrays |
-| 5 min  | [Demo](#demo-creating-arrays-5-mins)  | Creating Arrays |
-| 10 min  | [Independent Practice](#independent-practice-creating-arrays-10-mins)  | Creating Arrays |
-| 15 min  | [Demo](#demo-manipulating-arrays-15-mins)  | Manipulating Arrays |
-| 10 min  | [Demo](#demo-problems-with-arrays-10-mins)  | Problems With Arrays |
-| 15 min  | [Demo](#demo-collections-15-mins)  | Collections |
-| 15 min  | [Guided Practice](#guided-practice-iterating-through-a-list-with-for-loops-15-mins)  | Iterating Through a List With `for` Loops |
-| 15 min  | [Independent Practice](#independent-practice-arrays-and-array-lists-15-mins)  | Arrays and Array Lists  |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 5 min  | [Introduction](#introduction-basic-arrays-5-min)  | Basic Arrays |
+| 5 min  | [Demo](#demo-creating-arrays-5-min)  | Creating Arrays |
+| 10 min  | [Independent Practice](#independent-practice-creating-arrays-10-min)  | Creating Arrays |
+| 15 min  | [Demo](#demo-manipulating-arrays-15-min)  | Manipulating Arrays |
+| 10 min  | [Demo](#demo-problems-with-arrays-10-min)  | Problems With Arrays |
+| 15 min  | [Demo](#demo-collections-15-min)  | Collections |
+| 15 min  | [Guided Practice](#guided-practice-iterating-through-a-list-with-for-loops-15-min)  | Iterating Through a List With `for` Loops |
+| 15 min  | [Independent Practice](#independent-practice-arrays-and-array-lists-15-min)  | Arrays and Array Lists  |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 

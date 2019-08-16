@@ -20,13 +20,13 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | [Opening](#opening-5-mins)  | Learning Objectives |
-| 10 min  | [Introduction](#introduction-stack-trace-10-mins)  | Stack Trace |
-| 5 min  | [Demo](#demo-stack-trace-5-mins)  | Stack Trace |
-| 10 min  | [Introduction](#introduction-breakpoints-10-mins)  | Breakpoints |
-| 10 min  | [Demo](#demo-breakpoints-10-mins)  | Breakpoints |
-| 10 min  | [Independent Practice](#independent-practice-bug-fixing-10-mins)  | Bug Fixing |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives |
+| 10 min  | [Introduction](#introduction-stack-trace-10-min)  | Stack Trace |
+| 5 min  | [Demo](#demo-stack-trace-5-min)  | Stack Trace |
+| 10 min  | [Introduction](#introduction-breakpoints-10-min)  | Breakpoints |
+| 10 min  | [Demo](#demo-breakpoints-10-min)  | Breakpoints |
+| 10 min  | [Independent Practice](#independent-practice-bug-fixing-10-min)  | Bug Fixing |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 
