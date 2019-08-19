@@ -59,7 +59,7 @@ Time        |         Topic
 1-2         | [Lab - Spring Music App(Step 3(a))](/Week5/Lessons/4-Thursday/6-Spring-Boot-Lab)
 2-3:30      | [Relational Mapping](/Week5/Lessons/5-Friday/1-Spring-Data-PostgreSQL-Lesson/)
 3:30-4      | [Lab - Spring Music App(Step 3(b))](/Week5/Lessons/4-Thursday/6-Spring-Boot-Lab)
-4-5         | [week in review](../Additional-Material/week-in-review.md)
+4-5         | [week in review](/Additional-Material/week-in-review.md)
 HW          | [HW - Spring Music App(Steps 1-3))](/Week5/Lessons/4-Thursday/6-Spring-Boot-Lab)
 
 
