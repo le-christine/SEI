@@ -126,6 +126,27 @@ public class OOMError {
 
 ```
 
+```java
+import java.util.List;
+import java.util.ArrayList;
+
+import static java.lang.Runtime.getRuntime;
+
+public class OOMError {
+    public static void main(String args[]) {
+        List<String[]> list = new ArrayList<>();
+
+        for(int i = 0; ; i++) {
+            Runtime runtime = getRuntime();
+            System.out.printf("Iteration: %d total memory: %d free memory: %d%n", i, runtime.totalMemory(), runtime.freeMemory());
+            list.add(new String[10_000_000]);
+        }
+    }
+}
+
+```
+
+
 > **Knowledge Check**: Can someone explain what happened? 
 
 In this program, we continuously create a large array and store it in a `List`. We display the total and available memory on each iteration.
