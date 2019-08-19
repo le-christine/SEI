@@ -15,11 +15,11 @@ At the end of this lesson, students will be able to:
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | Opening  | Learning Objectives | 
-| 15 min | Guided Practice | Superclasses and Subclasses |
-| 15 min | Guided Practice | Upcasting and Downcasting |
-| 40 min | Independent Practice | Shapes |
-| 10 min  | Conclusion  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives | 
+| 15 min | [Guided Practice](#guided-practice-superclasses-and-subclasses-15-min) | Superclasses and Subclasses |
+| 15 min | [Guided Practice](#guided-practice-upcasting-and-downcasting-15-min) | Upcasting and Downcasting |
+| 40 min | [Independent Practice](#independent-practice-shapes-40-min) | Shapes |
+| 10 min | [Conclusion](#conclusion-10-min)  | Review/Recap |
 
 ## Opening (5 min)
 
