@@ -7,7 +7,7 @@ At the end of every week of class, we recommend doing a 1-hr "week in review" to
 - Celebrate wins and highlights.
 - Gather feedback to improve teaching and lesson style.
 
-We've outlined two differeent formats that Week in Review can take depending on the needs of the group at that time. However, feel free to use a different format if you prefer! Each format takes roughly 1 hr.
+We've outlined two different formats that Week in Review can take depending on the needs of the group at that time. However, feel free to use a different format if you prefer! Each format takes roughly 1 hr.
 
 ----
 
