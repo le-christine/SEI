@@ -13,15 +13,15 @@
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | Opening  | Learning Objectives | 
-| 10 min | Demo | Abstract Classes |
-| 10 min | Guided Practice | Abstract Classes in Action |
-| 10 min | Demo | Interfaces |
-| 15 min | Guided Practice | Implementing Interfaces |
-| 20 min | Independent Practice | Creating and Implementing Interfaces |
-| 10 min | Demo | Breaking It Down |
-| 10 min | Demo | Interfaces vs. Abstract Classes |
-| 5 min  | Conclusion  | Review/Recap |
+| 5 min  | [Opening](#opening-5-min)  | Learning Objectives | 
+| 10 min | [Demo](#demo-abstract-classes-10-min) | Abstract Classes |
+| 10 min | [Guided Practice](#guided-practice-abstract-classes-in-action-10-min) | Abstract Classes in Action |
+| 10 min | [Demo](#demo-interfaces-10-min) | Interfaces |
+| 15 min | [Guided Practice](#guided-practice-implementing-interfaces-15-min) | Implementing Interfaces |
+| 20 min | [Independent Practice](#independent-practice-creating-and-implementing-interfaces-20-min) | Creating and Implementing Interfaces |
+| 10 min | [Demo](#demo-breaking-it-down-10-min) | Breaking It Down |
+| 10 min | [Demo](#demo-interfaces-vs-abstract-classes-10-min) | Interfaces vs. Abstract Classes |
+| 5 min  | [Conclusion](#conclusion-5-min)  | Review/Recap |
 
 ## Opening (5 min)
 
@@ -208,7 +208,7 @@ class HondaAccord implements Automobile {
     private int year; 
 
     // Constructor:
-    public HondaAccord(year) {
+    public HondaAccord(int year) {
         this.year = year;
     }
 
