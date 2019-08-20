@@ -20,7 +20,7 @@ You already have the function where you want the API call to go (`handleDetailsC
 This step seems complicated, but it isn't! Just take it one step at a time. Because TMDB isn't a public API, you'll need to get an API key to add to your `fetch()` call; then, you'll want to make sure to keep the key in a safe spot.
 
 - To gain access to the TMDB API, you'll need to get an API key from [TMDB](https://www.themoviedb.org).
-  - TMDB only gives API keys to users with accounts, so you'll have to sign up first (it's free). However, it will ask for your phone and address.
+  - TMDB only gives API keys to users with accounts, so you'll have to sign up first (it's free). However, it will ask for a valid email address.
   - Then, request an API key on your profile page (check out further instructions [here](https://developers.themoviedb.org/3/getting-started)).
   - Once you have your API key, you need to include it in your app. Because you **never want to store app secrets in your repository**, you'll use the [`dotenv`](https://github.com/motdotla/dotenv) package to keep the API key in a local file.
 
@@ -141,12 +141,12 @@ Start with the empty case. Add the following markup below the `.section-title`:
 
 ```html
 <div className="film-detail">
-  <p>
-    <i className="material-icons">subscriptions</i>
-    <span>No film selected</span>
-  </p>
+    <Subscriptions />
+    <span>No film selected!</span>
 </div>
 ```
+
+And don't forget to import your material-ui Subscriptions icon! Refer to the `Fave.js` file for an example of how we imported these previously.
 
 #### Step 3: Conditionally Render the Current Film
 
@@ -160,7 +160,7 @@ let details
 
 Now, you need to determine whether or not there is a film to render.
 
-To do this, you just need to check if there's an `id` property on the `film` prop passed in to `FilmDetail`.
+To do this, you just need to check if there's an `id` property on the `current` prop passed in to `FilmDetail`.
 
 - If not, you want to render the empty case you added in the last step.
 - Otherwise, you have a film to show, so you want to present the film details markup (don't copy this over yet):
@@ -191,7 +191,7 @@ To do this, you just need to check if there's an `id` property on the `film` pro
 return (
   <div className="film-details">
     <h1 className="section-title">Details</h1>
-    {detail}
+    {details}
   </div>
 )
 ```

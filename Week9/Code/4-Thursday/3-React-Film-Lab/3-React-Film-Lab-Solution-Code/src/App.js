@@ -23,19 +23,21 @@ class App extends Component {
         const faves = this.state.faves.slice();
         const filmIndex = faves.indexOf(film);
 
-        if (faves.indexOf(film) === -1) {
-            faves.push(film);
-        }
-        else {
-            faves.splice(filmIndex, 1);
-            console.log(faves, filmIndex);
-        }
+        faves.indexOf(film) === -1
+            ? faves.push(film)
+            : faves.splice(filmIndex, 1);
 
         this.setState({faves})
     }
 
     handleDetailsToggle(film) {
-        console.log('Fetching details for: ' + film.title);
+        const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_key}&append_to_response=videos,images&language=en`;
+
+        fetch(url).then(response => {
+            response.json().then(data => {
+                this.setState({current: data})
+            })
+        })
     }
 
     render() {
