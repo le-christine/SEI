@@ -363,10 +363,9 @@ Choose one of the frameworks listed above and spend a few minutes reading the do
 
 For the remainder of class, you will be working on styling an Instagram clone.
 
-  1. Clone this repo: [React InstaClone](https://git.generalassemb.ly/atl-wdi/React-InstaClone).
-  2. Checkout the `starter-code` branch.
-  3. This application has all of the structure and logic to build a basic clone of the [Instagram Desktop page](https://www.instagram.com/). Your mission is to use `styled-components` to recreate the styles seen on the Instagram site.
-  4. If you get stuck along the way, you can check out a deployed version of the app [here](https://wdi11-instaclone.herokuapp.com/) or check out the `solution-code` branch for hints.
+  1. Use the starter code provided.
+  2. This application has all of the structure and logic to build a basic clone of the [Instagram Desktop page](https://www.instagram.com/). Your mission is to use `styled-components` to recreate the styles seen on the Instagram site.
+  3. If you get stuck along the way, you can check out a deployed version of the app [here](https://wdi11-instaclone.herokuapp.com/) or ask us for the solution code.
 
 ---
 
