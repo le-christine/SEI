@@ -1,0 +1,94 @@
+/* GLOBALS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 32pt;
+    color: #7189FF;
+    margin-left: 10%;
+}
+
+/* NAV BAR */
+.nav_wrapper {
+    width: 100%;
+    background-color: #C1CEFE;
+    padding: 10px 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav > a {
+    color: #624cab;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* MAIN CONTENT */
+.content {
+    max-width: 950px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* BLOG SECTION */
+.blogs_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.blogs_title {
+    font-weight: bold;
+    margin-top: 12px;
+}
+.blogs_card {
+    width: 200px;
+    margin-right: 1%;
+    text-align: center;
+} 
+.blogs_card > img {
+    width: 100%;
+    margin-top: 12px;
+}
+.blogs_card > p {
+    margin-top: 15px;
+}
+
+/* MEMBER SECTION */
+.members_title {
+    margin-top: 30px;
+    font-weight: bold;
+}
+.members_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.members_card {
+    margin-top: 10px;
+}
+.members_name {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer_text {
+    margin-top: 120px;
+    font-size: 16px;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer_image > img {
+    width: 100%;
+}
