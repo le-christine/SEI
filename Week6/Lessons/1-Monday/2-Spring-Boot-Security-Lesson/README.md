@@ -42,7 +42,7 @@ Spring Security is implemented using Servlet filters in the background. Let's ta
 
 ## Code Along (20 min)
 
-For this exercise you can either use the same application that we built during [Spring data with Postgres](/Week5/Lessons/5-Friday/1-Spring-Data-PostgreSQL-Lesson) lesson. OR you can use the application given in [starter-code](/Week6/Code/1-Monday/Spring-Boot-Security-Lesson/starter-code). Open the app in IntelliJ.
+For this exercise you can either use the same application that we built during [Spring data with Postgres](/Week5/Lessons/5-Friday/1-Spring-Data-PostgreSQL-Lesson) lesson. OR you can use the application given in [starter-code](/Week6/Code/1-Monday/Spring-Boot-Security-Lesson/Starter-Code). Open the app in IntelliJ.
 
 ### In Memory Authentication & Authorization
  
@@ -922,5 +922,5 @@ You made it! You can now use Spring Security along with JWT to authenticate and 
 
 **Lab: Spring Music App**
 
-You will now work to protect your APIs using JWT by working on [Step 4](https://git.generalassemb.ly/GA-Cognizant/spring-boot/tree/master/spring-boot-lab#step-4-spring-security) of the [lab](https://git.generalassemb.ly/GA-Cognizant/spring-boot/tree/master/spring-boot-lab). Just like before make sure you read all the instructions before you begin.
+You will now work to protect your APIs using JWT by working on [Step 4](/Week6/Lessons/1-Monday/3-Spring-Boot-Lab#step-4-spring-security) of the [lab](/Week6/Lessons/1-Monday/3-Spring-Boot-Lab). Just like before make sure you read all the instructions before you begin.
 
