@@ -155,7 +155,7 @@ Now, back in React, in your render() function, map over the returned array (afte
 
 Now, add another route of your choosing. It could be `/api/songs`, `/api/shows`, whatever you want, and create a separate controller in your Spring Boot back end, a separate component in your React front end, and connect the two and print out the response.
 
-> Take 10 minutes on the exercise and then we'll debrief for 5 minutes as a class.
+> Take 15 minutes on the exercise and then we'll debrief for 5 minutes as a class.
 
 ------
 
