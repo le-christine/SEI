@@ -66,7 +66,7 @@ In such cases, mocking is the answer. You will mock a `userService.createUser()`
 
 ## Code Along - Testing the Controller (30 min)
 
-Copy the solution code from an application we built previously (in [spring-boot-security-lesson](../spring-boot-security-lesson), [spring-data-postgresql-lesson](../spring-data-postgresql-lesson) or [spring-data-mongodb-lesson](../spring-data-mongodb-lesson)). We'll write unit tests for `UserController`. 
+Copy the solution code from an application we built previously (in [spring-boot-security-lesson](/Week6/Lessons/1-Monday/2-Spring-Boot-Security-Lesson), [spring-data-postgresql-lesson](/Week5/Lessons/5-Friday/1-Spring-Data-PostgreSQL-Lesson) or [spring-data-mongodb-lesson](/Week6/Lessons/4-Thursday/3-Spring-Data-MongoDB-Lesson)). We'll write unit tests for `UserController`. 
 
 By convention, all test classes are placed under the `src/test/java` folder. Create a package under this path with the name `com.example.springbootmonolith.controller`. Under this package, create a new class: `UserControllerTest`. This is a widely accepted convention for the test classes. You keep the class name the same as the class you are testing and add `'Test'` as the suffix:
 
