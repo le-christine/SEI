@@ -1,0 +1,170 @@
+body {
+  background-color: #ffff63;
+}
+
+.container {
+  padding: 0 25px 25px 25px;
+  margin-top: 30px;
+}
+
+.grid {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+
+  border: solid black;
+  border-width: 0 1px 1px 0;
+
+  z-index: -1;
+}
+
+
+.item_container {
+  display: grid;
+  padding: 10% 10%;
+  justify-items: center;
+  align-items: center;
+
+  border: solid black;
+  border-width: 1px 0 0 1px;
+
+}
+
+.item {
+  text-align: center;
+}
+
+
+/*********  CHILDREN ITEMS **********/
+.row1 {
+  grid-column: span 4;
+  padding: 0;
+  border-top: none
+}
+
+.row2_col1 {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.row2_col2 {
+  grid-column: span 2;
+  grid-row: span 4;
+}
+
+.row3_col1 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.row3_col2 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.row3_col3 {
+  grid-column: span 1;
+  grid-row: span 3;
+  /* background-color: lightcoral; */
+}
+
+.row3_col4 {
+  /* grid-column: span 4; */
+  grid-row: span 5; 
+  grid-column: span 1;
+  /* background-color: lightgreen; */
+}
+
+.row4_col1 {
+  grid-column: span 2;
+  grid-row: span 4;
+}
+
+.row4_col2 {
+  grid-row: span 2;
+  /* background-color: lightsalmon; */
+}
+
+/**********************/
+.title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.ref {
+  margin-top: 15px;
+  font-style: italic;
+}
+.content_lg {
+  margin-top: 15px;
+  /* text-align-last: justify; */
+}
+
+.content_small {
+  margin-top: 15px;
+  font-size: 10pt
+}
+
+h1 {
+  font-size: 56pt;
+}
+h2.title {
+  font-size: 20pt;
+}
+
+h3.title {
+  font-size: 16pt;
+}
+
+h4 > .title {
+  font-size: 26pt;
+}
+
+.label, .ref {
+  font-size: 8pt;
+}
+
+.last {
+  border: none;
+}
+
+.top_title {
+  max-width: 1000px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  z-index: 10;
+  height: 20px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top_title > div {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  background-color: #ffff63;
+  padding: 5px;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title_caps {
+  font-size: 10pt;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+.animalImage {
+  width: 40%;
+  margin-top: 15px;
+}
+.logo {
+  margin-top: 80px;
+}
+.logo > img {
+  width: 50%;
+}

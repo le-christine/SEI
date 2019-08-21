@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+body * {
+  background: lightgrey;
+}
+
+header {
+  background: steelblue;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+}
+
+main {
+  background: lemonchiffon;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+footer {
+  background: rebeccapurple;
+  grid-row: 3;
+  grid-column: 1 / span 3;
+}
+
+.left {
+  background: lightseagreen;
+  grid-row: 2;
+  grid-column 1;
+}
+
+.right {
+  grid-row: 2;
+  grid-column: 3;
+}
