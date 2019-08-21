@@ -114,7 +114,7 @@ For a refresher on Spring-Boot check out this [Example](https://git.generalassem
 
 ## Exercise: Initial `create-react-app` Scaffolding (20 min)
 
-When you are finished with Spring work, `cd` to the root of your folder and run `create-react-app client`. Then switch places with your partner and have the other person build one component that has a button that, when clicked, sends a GET request to `localhost:3000/api/books` and stores the response in an array in state (I recommend using `axios` to send the request).
+When you are finished with Spring work, `cd` to the root of your folder and run `create-react-app client`. Then switch places with your partner and have the other person build one component that has a button that, when clicked, sends a GET request to `localhost:3000/api/books` and stores the response in an array in state. I recommend using `axios` to send the request. Axios is a modern JavaScript library that simplifies the process of making network calls. Let's import the axios NPM package and take a look!
 
 Easy-peasy, right?
 
