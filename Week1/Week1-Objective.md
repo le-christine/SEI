@@ -20,16 +20,15 @@ Time        |         Topic
 12:00-1:00  | Lunch
 1:00-2:00   | [CSS selectors](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-selectors-styling-lesson)
 2:00-3:00   | [CSS box model](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-box-model-lesson)
-3:00-4:00   | [CSS positioning]()
-HW          | [Porfolio](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/3-Wednesday/code/1-html-css-portfolio)
+3:00-4:00   | [CSS positioning](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/2-Tuesday/lessons/5-CSS-Positioning/5-CSS-Positioning.md)
+4:00-5:00   | [Portfolio](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/3-Wednesday/code/1-html-css-portfolio)
 
 
 ### Wednesday
 
 Time      |         Topic
 ---       | ----------------------
-9-10      | [Portfolio site Morning Exercise](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/html-css-portfolio)
-10-11     | [CSS positioning](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-positioning-lesson)
+9:00-11:00| Outcomes
 11-1:30   | [Instagram Ad Lab](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-positioning-instagram-ad) / lunch
 1:30-3    | [CSS Flexbox](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-flexbox-lesson)
 3-5       | [Flexbox lab](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/html-css-flexbox-lab)
