@@ -1,0 +1,23 @@
+body {
+    background: red
+}
+  
+p {
+    color: orange;
+}
+  
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.comments {
+	font-weight: bold;
+	color: #64FE2E; /* green */
+}
+
+#dolphin {
+	font-style: italic;
+	color: #0040FF; /*blue*/
+}

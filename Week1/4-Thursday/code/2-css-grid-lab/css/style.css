@@ -1,0 +1,13 @@
+body {
+  background-color: #ffff63;
+}
+
+.container {
+  padding: 0 25px 25px 25px;
+}
+
+.grid {
+  max-width: 1000px;
+  display: grid;
+  margin: 50px auto;
+}
