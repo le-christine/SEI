@@ -3,6 +3,7 @@ package com.example.springbootmonolith.controller;
 import com.example.springbootmonolith.models.Course;
 import com.example.springbootmonolith.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -22,13 +23,19 @@ public class CourseController {
         return courseService.listCourses();
     }
 
-    @PutMapping("/{courseId}")
-    public Course updateCourseById(@PathVariable Long courseId, @RequestBody Course courseRequest) {
-        Course courseFromDb = courseService.findById(courseId);
+    @PutMapping("/update")
+    public Course updateCourseById(@RequestBody Course courseRequest) {
+        Course courseFromDb = courseService.findById(courseRequest.getId());
 
         courseFromDb.setName(courseRequest.getName());
         courseFromDb.setCode(courseRequest.getCode());
         return courseService.save(courseFromDb);
+    }
+
+    @DeleteMapping("/delete")
+    public HttpStatus deletePostById(@RequestBody Course courseRequest) {
+        courseService.deleteById(courseRequest.getId());
+        return HttpStatus.OK;
     }
 
 }

@@ -6,8 +6,14 @@ import axios from 'axios'
 
 class CourseList extends Component {
 
-    state = {
-        courses: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            courses: [],
+        }
+
+        this.updateCourse = this.updateCourse.bind(this);
+        this.deleteCourse = this.deleteCourse.bind(this);
     }
 
     async componentWillMount() {
@@ -33,21 +39,17 @@ class CourseList extends Component {
         }
     }
 
-    handleCourseChange = async (event, index) => {
+    updateCourse = async (course) => {
         try {
-            const updatedCoursesList = [...this.state.courses]
-            const courseToUpdate = updatedCoursesList[index]
-
-            const updatedCourse = await axios({
+            await axios({
                 method: 'PUT',
-                url: `/course/${ courseToUpdate.id }`,
-                data: courseToUpdate
+                url: `/course/update`,
+                data: course
             });
-            const attributeToChange = event.target.name
-            const newValue = event.target.value
-
-            courseToUpdate[attributeToChange] = newValue
-            updatedCoursesList[index] = courseToUpdate
+            const updatedCoursesList = [...this.state.courses]
+            const index = updatedCoursesList;
+            updatedCoursesList[index] = course;
+            console.log(updatedCoursesList);
             this.setState({courses: updatedCoursesList})
         } catch(error) {
             console.log('Error editing Course!');
@@ -55,14 +57,22 @@ class CourseList extends Component {
         }
     }
 
-    updateCourse = async (index) => {
+    deleteCourse = async (course) => {
         try {
-            const courseToUpdate = this.state.courses[index]
-            await axios.patch
+            const status = await axios({
+                method: 'DELETE',
+                url: '/course/delete',
+                data: course
+            })
         } catch(error) {
-            console.log('Error updating course!');
+            console.log('Error deleting Course!');
             console.log(error);
         }
+
+        const coursesList = [...this.state.courses];
+        const index = coursesList.indexOf(course);
+        const newCourses = coursesList.splice(index, 1);
+        this.setState({courses: newCourses })
     }
 
     render() {
@@ -77,7 +87,10 @@ class CourseList extends Component {
                             {...course}
                             key={index}
                             index={index}
-                            handleCourseChange={this.handleCourseChange} />
+                            course={course}
+                            updateCourse={this.updateCourse}
+                            delete={this.deleteCourse}
+                        />
                     )})
                 }
             </div>
