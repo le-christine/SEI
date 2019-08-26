@@ -380,14 +380,14 @@ We'll give this a shot in the next section.
 
 Let's practice the flow you'll be using in all of our classes to get assignments and submit your work.
 
-The goal is to get the work from [this](https://git.generalassemb.ly/GA-Cognizant/github-forking-exercise) repo onto your local machine, make a change, and submit a pull request.
+The goal is to get the work from [this](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/1-Monday/code/5-Github-Lesson) repo onto your local machine, make a change, and submit a pull request.
 
-1. First, click the link to this repository: https://git.generalassemb.ly/GA-Cognizant/github-forking-exercise.
-2. Click the "Fork" button on the top-right corner. (After you do so, notice you have a new repo that you own, forked from `ga-cognizant/github-forking-exercise`.)
+1. First, click the link to this repository: https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/1-Monday/code/5-Github-Lesson.
+2. Click the "Fork" button on the top-right corner. (After you do so, notice you have a new repo that you own, forked from `sureshmelvinsigera/AMEX/tree/master/Week1/1-Monday/code/5-Github-Lesson`.)
 3. Find the "Copy to clipboard" button to get the clone URL.
 4. Jump back to the terminal and, from your root directory, type in `git clone URL`.
-5. `cd` into the cloned repository and open the `forking-exercise` folder in a text editor.
-6. Type your name on the `readme.md` file.
+5. `cd` into the cloned repository and open the `5-Github-Lesson` folder in a text editor.
+6. Type your name in the `readme.md` file.
 7. `add`, `commit`, and `git push origin master`.
 
 Remember, before you can open a pull request from your fork, you must commit new code to the local clone of your fork and push that code to your forked copy on GitHub.
@@ -406,7 +406,7 @@ Now, to create a pull request:
 7. Enter a title and description for your pull request.
 8. Click "Send pull request."
 
-Nice work! Take a moment to think about this, flow because we'll be using it throughout the course.
+Nice work! Take a moment to think about this flow because we'll be using it throughout the course.
 
 ## Partner Practice: Assess (10 min)
 
