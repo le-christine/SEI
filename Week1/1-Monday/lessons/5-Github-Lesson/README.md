@@ -380,9 +380,9 @@ We'll give this a shot in the next section.
 
 Let's practice the flow you'll be using in all of our classes to get assignments and submit your work.
 
-The goal is to get the work from [this](https://git.generalassemb.ly/GA-Cognizant/github-forking-exercise) repo onto your local machine, make a change, and submit a pull request.
+The goal is to get the work from [this](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/1-Monday/code/5-Github-Lesson) repo onto your local machine, make a change, and submit a pull request.
 
-1. First, click the link to this repository: https://git.generalassemb.ly/GA-Cognizant/github-forking-exercise.
+1. First, click the link to this repository: https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/1-Monday/code/5-Github-Lesson.
 2. Click the "Fork" button on the top-right corner. (After you do so, notice you have a new repo that you own, forked from `ga-cognizant/github-forking-exercise`.)
 3. Find the "Copy to clipboard" button to get the clone URL.
 4. Jump back to the terminal and, from your root directory, type in `git clone URL`.
