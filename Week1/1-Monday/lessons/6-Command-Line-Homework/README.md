@@ -23,67 +23,76 @@ As you work, make sure you `git add .` and `git commit -m "YOUR MESSAGE HERE"`!
 > Example answer: `mkdir star_wars`
 
 * In the `star_wars` folder, create two new directories: `empire` and `rebellion`.
-> Paste your command here.
+> cd star_wars
+> mkdir empire rebellion
 
 * Inside the `empire` directory, create a `.txt` file called `darth_vader`.
-> Paste your command here.
+> cd empire
+> touch darth_vader.txt
 
 * Use the force (or your knowledge of the command line) to add the text "...heavy breathing..." to the `darth_vader` file. (Forgotten how to do this? Use the `other force`, known as Google!)
-> Paste your command here.
+> echo '...heavy breathing...' >> darth_vader.txt
 
 * Inside the `empire` directory, create a `.txt` file called `emperor_palpatine`.
-> Paste your command here.
+> touch emperor_palpatine.txt
 
 * Inside the `empire` directory, create a directory called `death_star`.
-> Paste your command here.
+> mkdir death_star
 
 * Move `darth_vader` into the `death_star`.
-> Paste your command here.
+> mv darth_vader.txt death_star/
 
 ### Act II
 
 * Move into the `rebellion` directory.
-> Paste your command here.
+> cd ../rebellion
 
 * Create a file called `princess_leia` and add the text "Help me, Obi-Wan... You're my only hope."
-> Paste your command here.
+> echo "Help me, Obi-Wan... You're my only hope" >> princess_leia
 
 * Create a file called `obi_wan`.
-> Paste your command here.
+> touch obi_wan
 
 * Create a file called `luke_skywalker`.
-> Paste your command here.
+> touch luke_skywalker
 
 * Create a directory called `millenium_falcon`.
-> Paste your command here.
+> mkdir millenium_falcon
 
 * Inside the `millenium_falcon`, create two files: `han_solo` and `chewie`.
-> Paste your command here.
+> cd millenium_falcon/
+> touch han_solo chewie
 
 * Move `luke_skywalker`, `obi_wan`, and `princess_leia` into the `millenium_falcon`.
-> Paste your command here.
+> mv ../luke_skywalker .
+> mv ../obi_wan .
+> mv ../princess_leia .
 
 * Move the `millenium_falcon` into the `death_star`.
-> Paste your command here.
+> mv millenium_falcon ../empire/death_star
 
 ### Act III
 
 * Unload the Millenium Falcon! Move the whole crew from the `millenium_falcon` directory into the `death_star` directory.
-> Paste your command here.
+> mv millenium_falcon/* .
 
 * `darth_vader` has defeated `obi_wan`! Delete poor `obi_wan`.
-> Paste your command here.
+> rm obi_wan
 
 * Our heroes have disabled the tractor beam! Move the whole crew back into the `millenium_falcon`. Remember: `darth_vader` remains in the `death_star` and `emperor_palpatine` is still in the `empire`.
-> Paste your command here.
+> mv princess_leia millenium_falcon/
+> mv han_solo millenium_falcon/
+> mv chewie millenium_falcon/
+> mv luke_skywalker millenium_falcon/
 
 * Move the `millenium_falcon` back into the `rebellion` directory.
-> Paste your command here.
+> mv ./millenium_falcon/ ../../rebellion
 
 * `darth_vader` leaves the `death_star` to pursue Luke! Move him from the `death_star` into the `empire` directory.
-> Paste your command here.
+> mv darth_vader.txt ..
 
 * Thanks to his practice back home at Beggar's Canyon, Luke blew up the `death_star`! Remove it from the galaxy.
-> Paste your command here.
+> cd ..
+> rmdir death_star/
 
  :boom:
