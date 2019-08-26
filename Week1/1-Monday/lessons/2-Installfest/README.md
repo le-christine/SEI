@@ -8,7 +8,7 @@ Let's get our machines set up for the initial phase of the course.  We will be i
 
 ## Slack, Browser, And Text Editor
 
-Slack is a cloud-based team collaboration tool. You will use this to communicate with your instructional team, classmates, and the GA staff. For consistency, our class will be using `Google Chrome` as our default browser, and our text editor of choice will be `Sublime Text`.
+Slack is a cloud-based team collaboration tool. You will use this to communicate with your instructional team, classmates, and the GA staff. For consistency, our class will be using `Google Chrome` as our default browser, and our text editor of choice will be `Atom`.
 
 If you haven't downloaded any of these technologies yet, please do so now:
 
@@ -68,7 +68,7 @@ Now run the Terminal command `tree` to see a tree view of all the files inside y
 
 After running the Homebrew install, we want to configure our `bash prompt` to display helpful Git information.
 
-From the command line, open your `~/.bash_profile` file with Sublime Text using the command:
+From the command line, open your `~/.bash_profile` file with Atom using the command:
 
 ```shell
 atom ~/.bash_profile
@@ -109,10 +109,10 @@ When you are "[Adding a new SSH key to your GitHub Account](https://help.github.
 
 will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using Command-C, but with the command line).
 
-3. We will also tell Git to use `Sublime Text` as our default editor:
+3. We will also tell Git to use `Atom` as our default editor:
 
 ```shell
-git config --global core.editor "subl -n -w"
+git config --global core.editor "atom -n -w"
 ```
 
 #### Git Config Reference
