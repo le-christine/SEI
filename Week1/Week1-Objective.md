@@ -4,11 +4,11 @@
 
 Time    |         Topic
 ---     | ----------------------
-9-11:30 | [Course welcome](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/1-Course-Welcome/1-course-welcome.md) and [Installfest](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/2-Installfest/2-installfest.md)
-11:30-2 | [Working with Command line](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/3-Command-Line-Lesson/3-command-line-lesson.md) / lunch
-2-3:30  | [Command line lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/4-Command-Line-Lab/4-command-line-lab.md)
-3:30-5  | [Git + Github](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/5-Github-Lesson/5-github-lesson.md)
-HW      | [Star Wars Command Line](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/6-Command-Line-Homework/6-command-line-hw.md)
+9-11:30 | [Course welcome](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/1-Course-Welcome/) and [Installfest](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/2-Installfest/)
+11:30-2 | [Working with Command line](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/3-Command-Line-Lesson/) / lunch
+2-3:30  | [Command line lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/4-Command-Line-Lab/)
+3:30-5  | [Git + Github](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/5-Github-Lesson/)
+HW      | [Star Wars Command Line](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/1-Monday/lessons/6-Command-Line-Homework/)
 
 
 ### Tuesday
@@ -20,7 +20,7 @@ Time        |         Topic
 12:00-1:00  | Lunch
 1:00-2:00   | [CSS selectors](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-selectors-styling-lesson)
 2:00-3:00   | [CSS box model](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/css-box-model-lesson)
-3:00-4:00   | [CSS positioning](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/2-Tuesday/lessons/5-CSS-Positioning/5-CSS-Positioning.md)
+3:00-4:00   | [CSS positioning](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week1/2-Tuesday/lessons/5-CSS-Positioning/)
 4:00-5:00   | [Portfolio](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/3-Wednesday/code/1-html-css-portfolio)
 
 

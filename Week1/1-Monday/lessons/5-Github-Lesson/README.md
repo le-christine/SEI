@@ -120,11 +120,11 @@ Work with the person next to you. Get on the web and take three minutes to come 
 
 Let's make our first Git repo!
 
-To start, create a directory on your desktop:
+To start, create a directory on your desktop and `cd` into it:
 
 ```bash
-$ cd ~/Desktop
 $ mkdir hello-world
+$ cd hello-world
 ```
 
 You can place this directory under Git version control using the command:
