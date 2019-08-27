@@ -1,0 +1,34 @@
+.mammal {
+  background-color: lavenderBlush;
+  font-weight: bold;
+}
+
+.bird {
+  background-color: lightGray;
+  font-style: italic;
+}
+
+.fish {
+  background-color: lightYellow;
+  text-decoration: underline;
+}
+
+.first {
+  font-size: 40px;
+}
+
+.second {
+  color: red;
+}
+
+
+ul {
+  border: 3px dotted plum;
+  border-radius: 5px;
+}
+
+li {
+  border-top: 3px;
+  border-color: seagreen;
+  border-style: solid;
+}
