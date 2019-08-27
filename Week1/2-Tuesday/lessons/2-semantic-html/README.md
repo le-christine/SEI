@@ -18,7 +18,7 @@ We will be building a website in tribute to *The Fresh Prince of Bel-Air*. A des
 
 ### Starter Code
 
-You can access the starter code for this exercise [here](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/semantic-html-hw/starter-code), including an empty `index.html` page, a `style.css` page created by our designer, and an image we will insert into the page.
+You can access the starter code for this exercise [here](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week1/2-Tuesday/lessons/2-semantic-html/starter-code), including an empty `index.html` page, a `style.css` page created by our designer, and an image we will insert into the page.
 
 Try to get through as much as possible on your own; if you need additional help, read through this [hints file](https://git.generalassemb.ly/GA-Cognizant/html-css/tree/master/semantic-html-hw/starter-code/hints.md).
 
