@@ -4,28 +4,46 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.top {
+  float: right;
+  padding-bottom: 10px;
+}
+
+.top>img{
+  margin-right: 500px;
+  padding-top: 40px;
+}
+
 h1 {
   color: #06365f;
+  width: 250px;
 }
+
+nav a{
+  color: #06365f;
+  font-weight: bold;
+  padding-right: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 header {
   margin-right: 50px;
   margin-top: 70px;
   float: right;
   display: inline-block;
 }
-header>img {
-  padding-right: 100px;
-}
 
 button {
-  background-color: rgb(56,99,145);
+  background-image: linear-gradient(#06365f,#1c5380);
   width: 100px;
   height: 50px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  clear: left;
+  margin-left: -400px;
 }
 
 button img {
@@ -41,22 +59,29 @@ body {
 }
 
 article {
-  background-color: white;
   width: 500px;
   height: 500px;
   border-radius: 10px;
-  background-image: url('images/frame.png');
+  background-image: url("../images/frame.png");
   clear: left;
   display: inline-block;
-  
+  padding: 20px;
+  margin-left: 30px;
+}
+
+nav {
+  float: left;
 }
 
 footer {
   background-color: white;
   position: relative;
   display: inline-block;
+  color: gray;
+  width: 100%;
+  clear: left;
+  padding-left: 400px;
 }
-
 
 #phones {
   float: left;
