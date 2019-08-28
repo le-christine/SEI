@@ -1,0 +1,56 @@
+h1 {
+  font-size: 32px;
+  color: #7189FF
+}
+
+header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+nav {
+  background-color: #C1CEFE;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  margin-bottom: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #624CAB;
+  font-size: 16px/1.4;
+}
+
+div h4{
+  font-size: 16px/1.4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+figcaption {
+  font-size: 18px/1.4;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer {
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.blog-posts {
+  width: 960px;
+  display: flex;
+}
+
+.community {
+  width: 960px;
+  display: flex;
+
+}
