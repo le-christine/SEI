@@ -22,7 +22,7 @@ Time     |         Topic
 10-12    | [Functions + scope](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/2-Tuesday/2-Functions-And-Scope)
 12-2:30  | [Functions lab / lunch](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/2-Tuesday/3-Functions-Lab)
 2:30-4   | [Objects](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/2-Tuesday/4-Objects)
-4-5      | [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week2/Lessons/2-Tuesday/5-Objects-Lab/5-Objects-Lab.md)
+4-5      | [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/2-Tuesday/5-Objects-Lab)
 HW       | Finish [Objects lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week2/Lessons/2-Tuesday/5-Objects-Lab)
 
 
