@@ -44,7 +44,7 @@ Review the following HTML and CSS, which renders as shown in the mockup below. T
 
 ```html
 <body>
-  <div class="party">
+  <div>
     <p>Party div!!!</p>
     <img src="images/giphy.gif">
   </div>
