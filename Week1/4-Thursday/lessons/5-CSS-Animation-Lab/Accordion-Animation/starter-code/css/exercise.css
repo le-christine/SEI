@@ -51,7 +51,6 @@ via an anchor
   is scrollable in the inner div
 */
 
-/* .large */
 .accordion .section.large:target h3 + div {
     /* CODE TO MAKE LARGE CONTENT SCROLLABLE */
     overflow: auto;
