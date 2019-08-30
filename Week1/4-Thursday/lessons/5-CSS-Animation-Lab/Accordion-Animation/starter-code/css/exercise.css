@@ -31,6 +31,8 @@ causes a smooth transition in height of the div over 0.4 seconds */
 
 .accordion h3 + div {
     /* CODE FOR CLOSED ACCORDIAN */
+    overflow: hidden;
+    height: 0;
 }
 
 /*
@@ -39,12 +41,18 @@ via an anchor
  */
 .accordion :target div {
     /* CODE FOR OPEN ACCORDIAN */
+    height: 100%;
+    overflow: visible;
+    transition: all 1s ease-in-out;
 }
 
 /*
   BONUS: add to this CSS so that when a section has the large class, the content
   is scrollable in the inner div
 */
-.accordion h3 + div {
+
+/* .large */
+.accordion .section.large:target h3 + div {
     /* CODE TO MAKE LARGE CONTENT SCROLLABLE */
+    overflow: auto;
 }
