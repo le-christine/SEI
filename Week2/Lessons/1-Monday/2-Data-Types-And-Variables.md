@@ -217,8 +217,6 @@ When we start writing more complex code, there may be times when we forget which
 
 Take a look at some examples:
 
-![typeof](./images/typeof.png)
-
 Make sure to remember the `typeof` command in case you ever need to find out the type of data with which you're working.
 
 > **Fun fact**: You can use `typeof` with or without the parentheses!
