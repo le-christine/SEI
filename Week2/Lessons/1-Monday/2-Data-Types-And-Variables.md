@@ -283,8 +283,6 @@ If you don't have a background in programming, however, that last operator (th
 
 The modulus operator shows the remainder of a division problem. It takes two numbers as inputs and returns what's left over from the division. For example, `9` divided by `4` equals `2` with a remainder of `1`.
 
-![Modulus](./images/modulus_operator.png)
-
 ### Modulus in Action
 
 The modulus operator (`%`) is particularly useful in programming if we want to find out if a number is even or odd.
