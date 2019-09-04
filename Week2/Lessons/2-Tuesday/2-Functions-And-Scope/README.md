@@ -304,9 +304,6 @@ So, we have another variable called `age` in the global scope from the third lin
 
 Did you get all that? JavaScript is actually doing a lot with a relatively small amount of code. Here are a couple ways to visualize scope in the above scenario.
 
-![Scope](./images/scope-1.png)
-![Scope2](./images/scope-2.png)
-
 ---
 
 ## Code-Along: The Terminology of Scope (20 min)
