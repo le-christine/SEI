@@ -302,7 +302,7 @@ So, we have another variable called `age` in the global scope from the third lin
 </details>
 
 
-Did you get all that? JavaScript is actually doing a lot with a relatively small amount of code. Here are a couple ways to visualize scope in the above scenario.
+Did you get all that? JavaScript is actually doing a lot with a relatively small amount of code.
 
 ---
 
