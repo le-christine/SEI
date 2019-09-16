@@ -1,519 +1,373 @@
 ---
-title: Control Flow and Loops
+title: Methods and Scope
 type: Lesson
-duration: "1:35"
+duration: "1:25"
 creator:
-    name: Kristen Tonga
-    city: NYC
-
+  name: Kristen Tonga
+  city: NYC
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Control Flow and Loops
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Methods and Scope
 
 ### Learning Objectives
 At the end of this lesson, students will be able to:
-- Use `if...else` conditionals to control program flow based on Boolean conditions.
-- Use `switch` conditionals to control program flow based on explicit conditions.
-- Use comparison operators to evaluate and compare statements.
-- Use Boolean logic to combine and manipulate conditionals.
-- Loop over a code block one or more times.
+- Describe how parameters relate to methods.
+- Compare different types of variable scope.
+- Identify the parts of a method.
+- Use naming conventions for methods and variables.
 
 ### Lesson Guide
 
 | Timing  | Type  | Topic  |
 |:-:|---|---|
-| 5 min  | [Opening](#opening-5-mins)  | Learning Objectives |
-| 10 min  | [Introduction](#introduction-logical-operators-and-control-flow-10-mins)  | Logical Operators and Control Flow |
-| 10 min  | [Demo](#demo-conditional-statements-10-mins)  | Conditional Statements |
-| 15 min  | [Guided Practice](#guided-practice-boolean-or-logical-operators-15-mins)  | Boolean or Logical Operators |
-| 10 min  | [Demo](#demo-comparison-operators-10-mins)  | Comparison Operators |
-| 10 min  | [Introduction](#introduction-switch-statement-10-mins)  | `switch` Statements |
-| 15 min  | [Demo](#demo-loops-15-mins)  | Loops |
-| 15 min  | [Independent Practice](#independent-practice-fizz-buzz-15-mins)  |  Fizz Buzz |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review/Recap |
+| 5 min  | Opening  | Learning Objectives |
+| 5 min  | Introduction | Writing Methods |
+| 15 min | Demo   | Let's Break It Down |
+| 10 min | Independent Practice  | Discuss |
+| 10 min | Demo  | More Methods |
+| 15 min | Guided Practice  | Writing Methods |
+| 15 min | Independent Practice  | Write a Few Methods |
+| 5 min  | Conclusion | Review/Recap |
 
 ## Opening (5 min)
 
-> Control flow structures are an important aspect of programming languages that allow your code to take certain actions based on a variety of scenarios. Control flow is a fundamental concept in programming that allows you to dictate how your code runs under different conditions or until a certain condition is met.
-
-*The text above is from culttt.com.*
-
-Control flow is a concept that's consistent across most programming languages. The components of control flow (loops, `if...else` conditionals, `switch` statements, comparison operators) are also universal principles.
-
-What varies is the way different control flow components are implemented from language to language. Let's see how it's done in Java.
-
-Java supports a compact set of statements — specifically control flow statements — that you can use to incorporate interactivity in your application.
-
------
-
-## Introduction: Logical Operators and Control Flow (10 min)
-
-#### Block Statements
-
-Statements meant to be executed after a control flow operation will be grouped into a **block statement**. These statements are wrapped around a pair of curly braces:
-
-```java
-{
-  System.out.println("hello");
-  System.out.println("roar");
-}
-```
-
-#### Block Scope
-
-Scope changes depending on whether a variable is defined in the class (we use the `mVariableName` convention for these) or in a method (these variables have local scope only and are not available outside that method).
-
-In Java, variables defined in **block statements** modify scope, meaning those variables are not available outside of the block.
-
-<!-- **Instructor Note**: Show the scope error in the IDE, then correct it as shown in the second code block.-->
-
-For example:
-
-```java
-boolean beautiful = true;
-
-if (beautiful)
-{
-  String name = "lydia";
-}
-
-System.out.println(name); // symbol 'name' cannot be resolved
-```
-
-Variables defined in **block statements** are not available outside of the curly braces. How might we resolve this issue?
-
-<!-- **Instructor Note**: First, try to print out `name` without an `else` statement, then add the `else` when the program still won't compile.-->
-
-```java
-boolean beautiful = true;
-String name = "pepe";
-
-if (beautiful)
-{
-  name = "robin"; // Use the predefined variable.
-}
-
-System.out.println(name); //=> robin
-```
-
------
-
-## Demo: Conditional Statements (10 min)
-
-Conditional statements are a way of skipping over a block of code if it doesn't pass a Boolean expression. Java supports two conditional statements: `if...else` and `switch`.
-
-#### `if...else` Statements
-
-```java
-if (expr) {
-    code
-} else {
-    other code
-}
-```
-
-This means run the `code` block if `expr` is `true`, otherwise (if `expr` is `false`), run the `other code` block:
-
-```java
-int i = 9;
-
-if (i > 0) {
-    System.out.println("hi");
-} else {
-    System.out.println("goodbye");
-}
-//=> hi
-```
-
-When you need to test more than one case, you may use `else...if`:
-
-```java
-String name = "kittens";
-
-if (name.equals("puppies")) {
-    name += "!!!";
-} else if (name.equals("kittens")) {
-    name += "!!";
-} else {
-    name = "!" + name;
-}
-
-System.out.println(name); //=> "kittens!!"
-```
-
-#### Ternary Operator
-
-Java has a ternary operator for conditional expressions. You can think of the ternary operator as a concise `if...else` in one line:
-
-```java
-int age = 12;
-
-String allowed = (age > 18) ? "yes" : "no";
-
-System.out.println(allowed); //=> "no"
-```
-
-#### `true` or `false`
-
-It's important to know that all of the following become `false` when converted to a `Boolean`:
-
-- `false`
-- `0`
-- `""` (empty string)
-- `NaN`
-- `null`
-- `undefined`
-
-For example:
-
-```java
-Boolean b = Boolean.valueOf("");
-
-System.out.println(b); //=> false
-```
-
-This can be helpful when checking if conditions exist or are undefined, or if variables don't hold value.
-
------
-
-## Guided Practice: Boolean or Logical Operators (15 min)
-
-[Logical operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) will always return a Boolean value, `true` or `false`.
-
-There are two binary operators that require two values:
-- **`AND`**, denoted `&&`.
-- **`OR`**, denoted `||`.
-
-A third unary operator requires only one value:
-
-* **`NOT`**, denoted `!`.
-
-#### `&&` (`AND`)
-
-The `&&` operator requires both values to its left and right to be `true` in order to evaluate the entire statement as `true`:
-
-```java
-boolean result = false;
-
-if (true && true) {
-  result = true;
-}
-
-System.out.println(result); //=> true
-```
-
-Any other combination using the `&&` operator is `false`.
-
-What happens if I check `true && false`?
-
-```java
-boolean result = false;
-
-if (true && false) {
-  result = true;
-}
-
-System.out.println(result); //=> false
-```
-
-```java
-boolean result = false;
-
-if (false && false) {
-  result = true;
-}
-
-System.out.println(result); //=> false
-```
-
-#### `||` (`OR`)
-
-The `||` operator requires just one of the left or right values to be `true` in order to evaluate the entire statement as `true`.
-
-So, if I do `true || false`, what will be returned?
-
-```java
-if (true || false) {
-  System.out.println("true");
-}
-//=> true
-
-if (false || true) {
-  System.out.println("true");
-}
-//=> true
-
-if (false || false) {
-    System.out.println("true");
-}
-//=> ... silence ...
-```
-
-> **Knowledge Check**: What is the only combination that will return `false`?
-
-Only `false || false` will return `false`.
-
-The `!` takes a value and returns the opposite Boolean value:
-
-```java
-!(true)
-//=> false
-```
-
-The `&&` and `||` operators use short-circuit logic, which means whether or not they execute their second operand depends on the first.
-
-> **Knowledge Check**: Can you think of a time when this might be useful?
-
-This is useful for checking for `null` objects before accessing their attributes:
-
-```java
-if (instructor != null && instructor.getName().equals("drew")) {
-  System.out.println("davis");
-}
-```
-
-In this case, if the first operand, `instructor != null`, is `false`, then the second operand, `instructor.getName().equals("drew")`, will not be evaluated. The expression is basically saying, "We already know the whole `&&` expression is `false` because `instructor != null` is `false`. Why bother dealing with the second operand?"
-
-This is also important because a `NullPointerException` will be thrown if we try to call a method using "dot notation" on a `null` object reference.
+We've previously covered variables and data types — two important building blocks for all programming languages. Today, we'll learn about two more topics: methods and scope. **Methods** are reusable chunks of code that complete some task, while **scope** defines where the variables actually have relevance in your program.
 
 ----
 
-## Demo: Comparison Operators (10 min)
+## Introduction: Writing Methods (5 min)
 
-[Comparisons](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html) in Java can be made on primitives using `<`, `>`, `<=`, and `>=`.
+#### `main` Method
 
-> **Knowledge Check**: What is a primitive data type?
+We've already met a method: the `main` method. Every Java program needs it. It's the entry point to the rest of the application, and it will invoke all of the other methods required by your program.
 
-```java
-'A' > 'a'
-//=> false
-
-'b' > 'a'
-//=> true
-
-12 > 12
-//=> false
-
-```
-
-Note that you **cannot** do:
+Let's briefly review it:
 
 ```java
-12 >= "12"
-
-// or
-
-"Apple" > "Oranges"
+public static void main(String[] args)
 ```
-
-#### Equality Operator `==`
-
-When verifying equality between primitives, use `==`:
-
-```java
-System.out.println(1 == 2);
-//=> false
-```
-
-But what about with objects like `String`s?
-
-##### A Special Note on Equality Among `String`s
-
-There are two ways to compare the equality of `String`s:
-
-```java
-String blue = "blue";
-boolean withSign = (blue == "blue");            //=> true
-boolean withWords = (blue).equals("blue");      //=> true
-```
-
-Do you know which one of these would be preferred?
-
-Let's do another example to show you which and why:
-
-```java
-String blue = "blue";
-String bl = "bl";
-String ue = "ue";
-
-System.out.println(bl+ue);                      //=> blue
-boolean withSigns = (bl+ue == blue);            //=> false
-boolean withWords = (bl+ue).equals(blue);       //=> true
-```
-
-Why isn't `withSigns` `true` when the output looks the same?
-
-Objects and arrays are complex collections of values, and when we refer to them, we're actually referencing where they live in memory. That's why we say objects are **passed by reference**, while `int` and `float` are **passed by value**.
-
-`==` compares the place where the object was stored on the computer. What this means is that Java doesn't care if they look similar; it only compares whether or not they're the exact same object in memory. When checking for equality in each of the cases above, we're actually comparing two objects that are in two different places in memory.
-
-`String blue` has a reference to where it's stored on the computer, and that's a different place than where `String bl` is stored. They're not exactly the same, according to `==`.
-
-`equals()`, on the other hand, can be called on an instance of a `String` object. This method checks if the `char` arrays in each `String` are the same, not if the references are the same.
-
-In short, use `equals()` when comparing `String`s.
-
-> **Knowledge Check**: Why can we call methods on a variable of a `String` data type but not on an `int`?
-
-#### Don't Forget About Me: `!=`
-
-There's also an `!=` operator, which is the inverse of `==`.
 
 -----
 
-## Introduction: `switch` Statements (10 min)
+## Demo: Let's Break It Down (15 min)
 
-The `switch` statement can be used for multiple branches based on a number or `String`:
+Let's look at what each part of this method does. We'll start with the basics, which we covered a bit in explaining the `main` method.
 
-```java
-  String food = "apple";
-
-  switch(food) {
-    case "pear":
-      System.out.println("I like pears");
-      break;
-    case "apple":
-      System.out.println("I like apples");
-      break;
-    default:
-      System.out.println("No favorite");
-  }
-//=> I like apples
-```
-
-In this case, the `switch` statement compares `food` to each of the cases (`pear` and `apple`) and evaluates the expressions beneath them if there's a match. It uses the `String.equals` method in this case, or `==` in the case of primitives, to evaluate equality.
-
-The default clause is optional.
-
-**Note: Breaks are important.** If you don't put a `break` statement, the expression will continue to be evaluated for the next cases. This might cause unintended consequences.
-
-For example, if you eliminate the `break` statements:
+<!-- **Instructor Note**: Write the method on the board (or add `body` to the `main` method signature at the appropriate time) and underline and label each part as you go through the following sections.-->
 
 ```java
-  String food = "apple";
-
-  switch(food) {
-    case "pear":
-      System.out.println("I like pears");
-    case "apple":
-      System.out.println("I like apples");
-    default:
-      System.out.println("No favorite");
-  }
-```
-
-The result would be:
-
-```
-I like apples 
-No favorite
-```
-
-If `food = "pear"`, then the output would be:
-
-```
-I like pears  
-I like apples 
-No favorite
-```
-
-This isn't what we intended.
-
-------
-
-## Demo: Loops (15 min)
-
-Looping exists in just about all programming languages. A loop is a statement or block of code that will continue to execute while or until a condition exists.
-
-`while` loops, for example, will run a block of code **while** a condition is `true`. Java has `while` loops and `do...while` loops.
-
-The `while` loop is good for basic looping, but there's a possibility it will never run.
-
-> **Knowledge Check**: In what case will the `while` loop never run?
-
-```java
-while (true) {
-  // an infinite loop!
+public                       void            interestingMethod(  String input  )     throws IOException
+//<modifiers or visibility>  <return type>   <method name>    (  <parameters>  )     <exception list>
+{
+<opening brace>
+    System.out.println("I am making " + input + " interesting.")
+    <method body>
 }
+<closing brace>
+
 ```
 
-Using a `do...while` loop makes sure the body of the loop is executed at least once, because `while` isn't evaluated until after the block of code runs:
+#### Modifiers
+ 
+Modifiers are used to modify how a method can be called.
+
+Access modifiers include:
+- **`private`**: Visible only to the class.
+- **`protected`**: Visible to the package and all subclasses.
+- **`public`**: Visible to the world.
+
+When no access modifier is specified, the method is only visible to the class and package.
+
+Non-access modifiers include:
+- **`static`**: For creating class methods and variables.
+- **`final`**: For making something permanent.
+- **`abstract`**: For creating abstract classes and methods.
+- **`synchronized`**: For threads.
+
+We'll explain more of what all of these keywords mean in later lessons. For now, use `public`.
+
+<!--**Instructor Note**: Refer back to `main` method and point out `static` modifier. Maybe eliminate `static` from a method and point out the error. -->
+
+Any method called from within a `static` context must also be `static`. So for now, use `public static` for all methods. Again, we'll explain more on what this means later.
+
+#### Return Type
+
+A method can return a value, but the type of that returned value must be specified so the calling method knows what to do with it.
+
+Let's see how that works. Create a new Java program using the given console template from Eclipse, or create a basic class with an inner `main` method. Then, code the two methods below. Use the commented `print` statements to explain local scope.
+
+The problem:
 
 ```java
-int input = 0;
-
-do {
-  System.out.println(input++);
-} while (input < 10);
-```
-
-You can use looping in combination with iteration: a way of incrementally repeating a task.
-
-For example, using a `for` loop:
-
-```java
-int iterations = 10;
-
-for (int i = 0; i < iterations; i++) {
-  System.out.println(i);
-}
-```
-
-Notice the placement of the semicolons. Now, let's take a look at what each of the parts do:
-
-1. `int i = 0;` is the **initialization** phase.
-  - This is executed once, before the loop begins.
-  - Note that `int i` is declared within this phase. This means the lifespan of `i` is limited to within the `for` loop, which is much cleaner and leads to less problems down the line.
-
-2. `i < iterations;` is the **termination** phase.
-  - Every time the loop evaluates, it checks this statement.
-  - If this statement evaluates to `false`, the loop terminates.
-  - This is equivalent to the `while` section of the `do...while` loop.
-
-3. `i++` is the **increment** expression.
-  - This happens every time the loop evaluates.
-  - This is equivalent to the `do` section of the `do...while` loop.
-  - In this case, for each loop, `i` is incremented by `1`.
-  
------
-
-## Independent Practice: Fizz Buzz (15 min)
-
-Fizz buzz is a game about division. Create a program that will iterate through numbers `1` to `101`, and log each number in the console.
-
-- If the number is divisible by **three**, the word `fizz` should be logged instead of logging the number itself.
-- If the number is divisible by **five**, the word `buzz` should be logged.
-- If the number is divisible by both **three** and **five**, the word `fizzbuzz` should be logged.
-
-**Hint**: Remember the **modulo** operator?
-
-A typical output would look like this:
-
-<img src="https://i.imgur.com/avioQC8.png" width="400px">
-
-<details> 
-
-<summary>Solution</summary>
-
-```java
-for (int i = 1; i < 101; i++) {
-
-  if((i % 3 == 0) && (i % 5 == 0)) {
-    System.out.println("fizzbuzz");
-  } else if(i % 3 == 0) {
-    System.out.println("fizz");
-  } else if(i % 5 == 0) {
-    System.out.println("buzz");
-  } else {
-    System.out.println(i);
+class Main {
+    int mySum;
+    
+    public static void main(String[] args) {
+        getSum();
+        // System.out.println(sum); // not available
+    }
+    
+    public static void getSum() {
+        int sum = 2 + 2;
+        System.out.println(sum);
+    }
   }
-}
 ```
 
-</details>
+The solution:
+
+```java
+class Main {
+    int mySum;
+    
+    public static void main(String[] args) {
+        int returned = returnSum();
+        System.out.println(returned);
+    }
+    
+    // public static void getSum() {
+        // int sum = 2 + 2;
+        // System.out.println(sum);
+    // }
+    
+    public static int returnSum() {
+        int sum = 2 + 2;
+        System.out.println(sum);
+        return sum;
+    }
+  }
+```
+
+A method executes until it reaches a `return` statement or a closing curly brace. If a data type has been specified, that data (or `null`) must be returned, or the code will not compile.
 
 ----
+
+## Independent Practice: Discuss (10 min)
+
+Take five minutes and discuss the following questions with the person next to you:
+
+- What are some data types a method could return?
+- Why might you want to return a value from a method?
+
+Be ready to share your answers to the class.
+
+-----
+
+## Demo: More Methods (10 min)
+
+#### Method Name
+
+The method name is what the method is called. It's important to be explicit in naming your method so that, when a new developer comes in, they'll understand what the method does just by looking at its name.
+
+By convention, a method name should be a **verb** in **camel case** — just like variable names. For example: `getName()`, not `GetName()` or `getname()` or `get_name()`.
+
+#### Parameters (Enclosed Within Parentheses)
+
+Parameters are arguments passed into a method when it's called. This makes the method more dynamic.
+
+Let's look back at the `returnSum()` method.
+
+> **Knowledge Check**: What would you need to do if you wanted to pass a number to this method?
+
+```java
+public static int returnSum(int num1) {
+    int sum = num1 + num1;
+    return sum;
+}
+```
+
+> **Knowledge Check**: How about two numbers?
+
+```java
+public static int returnSum(int num1, int num2) {
+    int sum = num1 + num2;
+    return sum;
+}
+```
+
+Note that the method can be called like so:
+
+```java
+public static void main(String[] args) {
+    int returned = returnSum(2,4);
+    System.out.println(returned);
+    
+    int returned = returnSum(10,52);
+    System.out.println(returned);
+}
+```
+
+<!--**Instructor Note**: Emphasize the ability to reuse code without rewriting it. Remind students of the DRY principle.-->
+
+It's also possible to have a return type for an unknown number of arguments, which can be declared like this:
+
+```java
+public static void myMethod(String... vars) {}
+```
+
+Or like this:
+
+```java
+public static void myMethod(String[] vars) {}
+```
+
+These two signatures are the same thing under the hood.
+
+> **Knowledge Check**: From where does the last one look familiar?
+ 
+Like `main`, `myMethod()` will take an indefinite amount of parameters of the type `String`. For now, just know that it exists.
+
+In Java, if a method declares a parameter, that **parameter** is required to be sent as an **argument** from the calling method.
+
+#### Method Body (Enclosed Within Curly Braces)
+
+This is where the main functionality of your method will be called.
+
+## Guided Practice: Writing Methods (15 min)
+
+<!--**Instructor Note**: Take a look at the [solution-code](solution-code) and run the `askAQuestion` Java program so students have an idea of what they'll be creating.-->
+
+Let's work through the following example. The `Scanner` class we'll be using will be required in the lab.
+
+Some things to mention:
+
+- Methods must be contained within a class definition.
+- Nesting a method within another method isn't allowed.
+- Take note of variable scope.
+
+> **Knowledge Check**: Take a minute and try to come up with the syntax necessary to print this message: "\nAsk: who, what, why, when, or where."
+
+Here's a basic `main` class:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+	    System.out.println("\nAsk: who, what, why, when, or where");
+    }
+}
+```
+
+Let's add a method that gets user input and responds:
+
+```java
+public static void askAQuestion() {
+    Scanner input = new Scanner(System.in);
+    String userInput = input.nextLine();
+    
+    if (userInput.equals("who")) {
+        System.out.println("We're the Java class.");
+    }
+}
+```
+
+Actually, let's allow the user to put in a more complicated question, such as "Who are you?":
+
+```java
+...
+if (userInput.contains("who")) {
+  ...
+}
+```
+
+Let's add a default:
+
+```java
+  else {
+     System.out.println("I don't know how to answer that question.");
+     System.out.println("Try again...");
+  }
+```
+
+Wait, what if the user actually wants to try again?
+
+```java
+    ...System.out.println("Try again...");
+    {
+    askAQuestion();
+    }
+```
+
+This is called **recursion**, wherein a recursive method calls itself. A resource is included at the end of the lesson that talks about the ways to use recursion in order to solve basic algorithms.
+
+<!--**Instructor Note**: Run the program and prove that it executes circularly.-->
+
+What if the user wants to exit out of the program?
+
+```java
+
+    else if (userInput.contains("exit")) {
+            askAgain();
+        }
+    }
+    
+    public static void askAgain() {
+        System.out.println("\nAre you sure you have no more questions? y or n");
+        String userInput = grabUserInput();
+        
+	if (userInput.equals("y")) {
+            System.out.println("Thanks for playing. Goodbye.");
+            System.exit(0);
+        } else if (userInput.equals("n")) {
+            System.out.println("Ask another then:");
+            askAQuestion();
+        }
+    }
+}
+```
+
+## Independent Practice: Write a Few Methods (15 min)
+
+Create a new Java project in Eclipse and work through as many of these exercises as you can within the next 15 minutes. Use the official [Oracle Java Docs](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html) to help you through these exercises and look up the different class methods available.
+
+1. Write a method called `divide152By()`. It should accept a number as an argument and divide `152` by the given number. For example, the `divide152By` result of `2` — `152/2` — is `76`. Your method should return the result.
+
+    Use your method to find the following:
+
+    ```java
+    divide152By(3);
+    divide152By(43);
+    divide152By(8);
+    ```
+
+2. Write a method called `thirdAndFirst()`. This method accepts two strings and checks if the third letter of the first string is the same as the first letter of the second string. It should be case insensitive, meaning `thirdAndFirst("Apple","Peon")` should return `true`.
+
+    Check the following:
+    
+    ```java
+    thirdAndFirst("billygoat","LION");
+    thirdAndFirst("drEAMcaTCher","statue");
+    thirdAndFirst("Times","thyme");
+    ```
+
+3. Write a method called `transmogrifier()`. This method should accept three arguments, which you can assume will be numbers. Your method should return the "transmogrified" result, which is the product of the first two numbers raised to the power of the third number. For example, the transmogrified result of `5`, `3`, and `2` — `(5 times 3) to the power of 2` — is `225`.
+   
+    Use your method to find the following:
+
+    ```java
+    transmogrifier(5, 4, 3);
+    transmogrifier(13, 12, 5);
+    transmogrifier(42, 13, 7);
+    ```
+
+4. Write a method called `reverseString()`. This method should take one argument, a `String`. The method should return a `String` with the order of the words reversed. Don't worry about punctuation.
+
+    Check the following:
+    
+    ```java
+    reverseString("black cat"); => "tac kcalb"
+    reverseString("the cow jumped over the moon"); => "noom eht revo depmuj woc eht"
+    reverseString("I can ride my bike with no handlebars"); => "srabeldnah on htiw ekib ym edir nac I"
+    ```
 
 ## Conclusion (5 min)
 
-These are some of the foundational tools you'll use in many of your applications. You'll probably need to refresh yourself on the exact syntax a few times before you memorize it. But it's important to remember these core control flow concepts, because they'll come up in almost every programming language you'll encounter. The Java documentation on [control flow statements](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html) is a helpful reference.
+- Why do we use methods?
+- When might you use a method?
+
+## Resources
+
+- [Oracle Java Docs: Defining Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
+- [Oracle Java Docs: A Closer Look at the "Hello World!" Application](https://docs.oracle.com/javase/tutorial/getStarted/application/)
+- [Princeton: Java Programming Cheat Sheet](http://introcs.cs.princeton.edu/java/11cheatsheet/)
+- [Java Modifier Types](http://www.tutorialspoint.com/java/java_modifier_types.htm)
+- [Princeton: Recursion](http://introcs.cs.princeton.edu/java/23recursion/)
