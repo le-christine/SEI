@@ -113,11 +113,7 @@ HumanKind vannaWhite = new HumanKind();
 
 Finally, to run our program on IntelliJ, notice the little green arrow on the margin, to the left of our `main` method:
 
-![](resources/execute-main.png)
-
-Give that arrow a left click, then click on "Run HumanKind.main()." That will compile and execute our code and produce output similar to this:
-
-![](resources/execute-main-output.png)
+Give that arrow a left click, then click on "Run HumanKind.main()." That will compile and execute our code.
 
 ----
 
