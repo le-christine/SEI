@@ -208,8 +208,6 @@ HumanKind.setAddress("123 Main St, Burbank, CA");
 
 > **Tip**: In IntelliJ, if you don't remember the names of the parameters for a particular method, type the method where you want to use it, put your cursor between the parentheses and hit `ctrl+P`. This will show a neat display of the parameters and types.
 
-![](resources/ctrl-p.png)
-
 #### Instance vs. Static Methods
 
 ##### Instance Methods
