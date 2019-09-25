@@ -25,10 +25,6 @@ You can express the state or action of something by printing messages to the com
 
 **Bonus**: Add additional classes or subclasses.
 
-#### Starter Code
-
-In the [starter code](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week4/Code/4-Thursday/Inheritance-Household/Starter/src/AbstractionLab) folder, you'll find a `Driver` class with the `main` method. This class will be where you'll implement all of your households.
-
 #### Deliverable
 
 A simple Java program that has at least two households. `print` statements can be used to show their behavior.
