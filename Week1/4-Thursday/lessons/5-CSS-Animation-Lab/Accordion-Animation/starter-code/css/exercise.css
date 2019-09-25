@@ -41,7 +41,7 @@ via an anchor
  */
 .accordion :target div {
     /* CODE FOR OPEN ACCORDIAN */
-    height: 100%;
+    height: 10em;
     overflow: visible;
     transition: all 1s ease-in-out;
 }
