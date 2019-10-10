@@ -54,3 +54,5 @@ Time    |         Topic
 10:30-4 | [Logging lab](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/logging-monitoring-lab) / lunch
 4-5     | [week in review](https://git.generalassemb.ly/GA-Cognizant/additional-material/blob/master/week-in-review.md)
 HW      | finish [Logging lab](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/logging-monitoring-lab)
+
+s
