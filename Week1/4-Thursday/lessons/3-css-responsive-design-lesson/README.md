@@ -119,7 +119,7 @@ Here's an example of a site that hasn't overridden the viewport: [http://www.tcg
 
 So, how can we make more impactful changes to our site using media queries? The flexbox approach to layout eliminated the need to use media queries to adjust the grid on your page. But what if you're working on a project with existing code using `float`? And what about adjusting other elements on the page using media queries? It's important to understand all methods when approaching responsive design.
 
-Consider this [HTML](codealong/albums/index.html) and [CSS](codealong/albums/main-1.css), which renders like this on a large screen:
+Consider this [HTML](codealong/albums/index.html) and [CSS](codealong/albums/css/main-1.css), which renders like this on a large screen:
 
 ![albums-1](./images/albums-1.png)
 
@@ -139,11 +139,11 @@ And like this on a small screen:
 
 It's important that we work "big to small," meaning we address the large layout concerns first, then work through the details of adjusting sizing. We also have to keep in mind that there may be some breakpoints in between a common desktop size and a common mobile size. For now, let's work on adding styles for a small screen size at 400px.
 
-One way to approach media queries is to start by adding in styles you want for the smaller size *at the end of your CSS document*. These styles will overwrite the rules above! Compare this [new CSS](codealong/albums/main-2.css) to the [previous CSS](codealong/albums/main-1.css) and see how it renders on a large screen:
+One way to approach media queries is to start by adding in styles you want for the smaller size *at the end of your CSS document*. These styles will overwrite the rules above! Compare this [new CSS](codealong/albums/css/main-2.css) to the [previous CSS](codealong/albums/css/main-1.css) and see how it renders on a large screen:
 
 ![albums-2](./images/albums-2.png)
 
-All content on the page is aligned in a single column, whether viewed on a small or large screen width. Now, we need to specify **at which width** we want these styles to be applied. We can do this by adding in media queries to our [updated CSS](codealong/albums/main-3.css).
+All content on the page is aligned in a single column, whether viewed on a small or large screen width. Now, we need to specify **at which width** we want these styles to be applied. We can do this by adding in media queries to our [updated CSS](codealong/albums/css/main-3.css).
 
 Here are the four different layouts as we reduce the screen size:
 

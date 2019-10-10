@@ -6,7 +6,7 @@
 
 ### LEARNING OBJECTIVES
 
-*After this lesson, you will be able to:*
+*After this lesson, you will be able to*
 - Use Spring Security to authenticate and authorize users on your Spring Boot application.
 - Explain the problems that JWT solves.
 - Use JWT for authorization and password encryption.
