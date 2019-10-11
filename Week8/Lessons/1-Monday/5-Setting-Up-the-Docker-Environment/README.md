@@ -333,7 +333,7 @@ Login Succeeded
 
 To push a local image to Docker registry, you need to associate the local image with a repository on the docker registry. The notation for the repository on docker registry is `username/repository:tag`.
 
-Note: Replace gahub with your own tag below:
+Note: Replace gahub with your own docker username below:
 
 `docker tag spring-boot-websocket-chat-demo gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT`
 
