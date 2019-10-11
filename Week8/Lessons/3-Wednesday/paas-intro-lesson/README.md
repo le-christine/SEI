@@ -1,7 +1,7 @@
 ---
 Title: Intro to Platform-as-a-Service
 type: lesson
-duration: "0:55"
+duration: "0:50"
 creator:
     name: Prateek Parekh
 ---
@@ -21,19 +21,10 @@ creator:
 
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
-| 5 min  | Opening    | Lesson Objectives  |
 | 15 min | Lecture    | IaaS, PaaS, and SaaS: What's the Difference?   |
 | 10 min | Lecture    | What Not to Do in the Cloud           |
 | 20 min | Activity   | PaaS Providers           |
 | 5 min  | Conclusion | Review/Recap           |
-
-## Opening (5 min)
-
-If you recall from our last lesson, we learned about the major ways in which cloud services are consumed (see what I did there?) by comparing them to pizza.
-
-In this lesson, we'll learn more about the different models, as well as what sets Platform-as-a-Service (PaaS) apart.
-
-------
 
 ## IaaS, PaaS, and SaaS: What’s the Difference? (20 min)
 
