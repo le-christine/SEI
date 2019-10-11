@@ -4,19 +4,19 @@
 
 ### Monday
 
-Time  |         Topic 
+Time  |         Topic
 ---   | ----------------------
-9-11  | [Project 2 Demos](https://git.generalassemb.ly/GA-Cognizant/additional-material/blob/master/demos.md)
-11-12 | [Intro to Microservices](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/microservices-intro-lesson)
-12-2  | [Building Microservices](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/building-microservices-lesson) / lunch
-2-3   | [Intro to Docker](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/docker-intro-lesson)
-3-5   | [Docker lab](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/docker-environment-lesson)
-HW    | Finish [Docker lab](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/docker-environment-lesson)
+9-11  | [Project 2 Demos](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/1-Project-2-Demos)
+11-12 | [Intro to Microservices](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/2-Intro-to-Microservices)
+12-2  | [Building Microservices](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/3-Building-Microservices) / lunch
+2-3   | [Intro to Docker](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/4-Intro-to-Docker)
+3-5   | [Docker lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/5-Setting-Up-the-Docker-Environment)
+HW    | Finish [Docker lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week8/Lessons/1-Monday/5-Setting-Up-the-Docker-Environment)
 
 
 ### Tuesday
 
-Time |         Topic 
+Time |         Topic
 ---  | ----------------------
 9-10 | [morning exercise - what is systems architecture](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/systems-architecture-exercise)
 10-3 | [Setting up microservices environment](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/microservices-environment-lesson) / lunch
@@ -26,7 +26,7 @@ HW   | finish [Microservices lab](https://git.generalassemb.ly/GA-Cognizant/buil
 
 ### Wednesday
 
-Time   |         Topic 
+Time   |         Topic
 ---    | ----------------------
 9-10   | [morning exercise - what is dev ops](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/dev-ops-intro)
 10-1   | [intro to Kubernetes](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/intro-kubernetes-lesson) / lunch
@@ -37,7 +37,7 @@ HW     | finish [PaaS lesson](https://git.generalassemb.ly/GA-Cognizant/building
 
 ### Thursday
 
-Time  |         Topic 
+Time  |         Topic
 ---   | ----------------------
 9-10  | [morning exercise - what is Jenkins](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/jenkins-intro-lesson)
 10-11 | [intro to AWS](https://git.generalassemb.ly/GA-Cognizant/building-for-cloud/tree/master/intro-aws-lesson)
@@ -48,7 +48,7 @@ HW    | [finish ELK lesson](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tr
 
 ### Friday
 
-Time    |         Topic 
+Time    |         Topic
 ---     | ----------------------
 9-10:30 | Outcomes
 10:30-4 | [Logging lab](https://git.generalassemb.ly/GA-Cognizant/dev-ops/tree/master/logging-monitoring-lab) / lunch
