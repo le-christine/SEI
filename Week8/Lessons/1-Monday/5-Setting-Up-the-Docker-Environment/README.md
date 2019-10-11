@@ -266,7 +266,7 @@ In the above Dockerfile, we created a mount point with path `/tmp` because this 
 
 First, package the application in the form of a jar file using Maven:
 
-`./mvnw clean package`
+`./mvnw clean package -DskipTests`
 
 The above command should create the `websocket-demo-0.0.1-SNAPSHOT.jar` file in the target directory of the project.
 
