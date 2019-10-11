@@ -47,8 +47,8 @@ It will ask for privileged access. Confirm.
 A whale icon should appear in the top bar.  Click it and wait for "Docker is running" to appear.
 
 You should be able to run the docker commands below:    
-- `$docker ps` - lists the containers   
-- `$docker images` - lists the local images  
+- `docker ps` - lists the containers   
+- `docker images` - lists the local images  
 
 Alternatively, you can also install Docker directly from the Docker website.:
 - [Download Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
@@ -98,7 +98,7 @@ Let's follow these steps.
 #### Pull down the layered file system
 
 ```
-$docker pull hello-world
+docker pull hello-world
 
 Using default tag: latest
 latest: Pulling from library/hello-world
@@ -111,7 +111,7 @@ docker.io/library/hello-world:latest
 #### Confirm that the image was downloaded
 
 ```
-$docker images
+docker images
 
 REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
 hello-world                             latest              fce289e99eb9        7 months ago        1.84kB
@@ -120,7 +120,7 @@ hello-world                             latest              fce289e99eb9        
 #### Create and run a container from hello-world
 
 ```
-$docker run hello-world
+docker run hello-world
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
@@ -135,7 +135,7 @@ To generate this message, Docker took the following steps:
     to your terminal.
 
 To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
+  docker run -it ubuntu bash
 
 Share images, automate workflows, and more with a free Docker ID:
  https://hub.docker.com/
@@ -147,7 +147,7 @@ For more examples and ideas, visit:
 #### List all containers that are running and not running
 
 ```
-$docker ps -a
+docker ps -a
 
 CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS                      PORTS               NAMES
 02dc34aaae00        hello-world                       "/hello"                 44 seconds ago      Exited (0) 43 seconds ago                       gracious_lehmann
@@ -158,21 +158,21 @@ CONTAINER ID        IMAGE                             COMMAND                  C
 You only need to specify the first few characters of the container ID.
 
 ```
-$docker stop 02dc
+docker stop 02dc
 02dc
 ```
 
 #### Remove a stopped container
 
 ```
-$docker rm 02dc
+docker rm 02dc
 02dc
 ```
 
 #### Remove the layered file system
 
 ```
-$docker rmi hello-world
+docker rmi hello-world
 Untagged: hello-world:latest
 Untagged: hello-world@sha256:65xx0fc08ee6e608ee8dc3317e08eee178cb808ee231803xxxxxd20f
 Deleted: sha256:65xx0fc08ee6e608ee8dc3317e08eee178cb808ee231803xxxxxd20f
@@ -322,7 +322,7 @@ However, before you can push anything to Docker Hub, you need an account. If you
 #### Login with your Docker ID
 
 ```
-$docker login
+docker login
 Login with your Docker ID to push and pull images from Docker Hub. 
 Username: gahub
 Password: 
@@ -335,12 +335,12 @@ To push a local image to Docker registry, you need to associate the local image 
 
 Note: Replace gahub with your own tag below:
 
-`$docker tag spring-boot-websocket-chat-demo gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT`
+`docker tag spring-boot-websocket-chat-demo gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT`
 
 Verify that the tagged image shows up with the following command: 
 
 ```
-$docker image ls
+docker image ls
 REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
 spring-boot-websocket-chat-demo         latest              bdbafa81b01c        2 days ago          129MB
 gahub/spring-boot-websocket-chat-demo   0.0.1-SNAPSHOT      bdbafa81b01c        2 days ago          129MB
@@ -352,7 +352,7 @@ openjdk                                 8-jdk-alpine        a3562aa0b991        
 Finally, we push the image to the Docker Hub with the `docker push` command:
 
 ```
-$docker push gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT
+docker push gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT
 The push refers to repository [docker.io/gahub/spring-boot-websocket-chat-demo]
 965bbdb13844: Pushed 
 ceaf9e1xxxx5: Mounted from library/openjdk 
