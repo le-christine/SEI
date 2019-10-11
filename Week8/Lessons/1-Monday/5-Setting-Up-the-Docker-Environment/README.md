@@ -206,7 +206,7 @@ We'll go through all the steps needed to Dockerize a Spring Boot application.
 
 ### Clone the application to Dockerize
 
-`git@github.com:prparekh/spring-boot-websocket-chat-demo.git`
+`https://github.com/prparekh/spring-boot-websocket-chat-demo.git`
 
 Next, we will create a Docker image of this Spring Boot application.
 
