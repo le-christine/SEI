@@ -10,7 +10,6 @@
 - Pull an image from Docker Hub and run a container on your machine.
 - Use common Docker CLI commands.
 - Run source code as a container volume.
-- Push a Docker image to production in Heroku.
 
 ### Lesson Overview
 
