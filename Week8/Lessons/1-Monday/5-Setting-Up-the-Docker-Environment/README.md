@@ -1,6 +1,6 @@
 | Title | Type | Duration | Author |
 | -- | -- | -- | -- |
-| Setting Up the Docker Environment | Lesson | 2:25 | Prateek Parekh |
+| Setting Up the Docker Environment | Lesson | 2:00 | Prateek Parekh |
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Setting Up the Docker Environment
 
@@ -22,7 +22,6 @@
 | 15 min | Guided Practice | Docker Hello World Image |
 | 15 min | Guided Practice | Run a Docker container and open a port |
 | 30 min | Guided Practice | Dockerizing a Spring Boot Applicaiton |
-| 30 min | Guided Practice | Running Containers on Heroku |
 | 20 min | Guided Practice | Docker Compose |
 | 5 min  | Conclusion | Brief Debrief |
 
