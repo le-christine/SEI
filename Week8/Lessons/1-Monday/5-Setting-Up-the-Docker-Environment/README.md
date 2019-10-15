@@ -1,6 +1,6 @@
 | Title | Type | Duration | Author |
 | -- | -- | -- | -- |
-| Setting Up the Docker Environment | Lesson | 2:25 | Prateek Parekh |
+| Setting Up the Docker Environment | Lesson | 2:00 | Prateek Parekh |
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Setting Up the Docker Environment
 
@@ -10,7 +10,6 @@
 - Pull an image from Docker Hub and run a container on your machine.
 - Use common Docker CLI commands.
 - Run source code as a container volume.
-- Push a Docker image to production in Heroku.
 
 ### Lesson Overview
 
@@ -22,7 +21,6 @@
 | 15 min | Guided Practice | Docker Hello World Image |
 | 15 min | Guided Practice | Run a Docker container and open a port |
 | 30 min | Guided Practice | Dockerizing a Spring Boot Applicaiton |
-| 30 min | Guided Practice | Running Containers on Heroku |
 | 20 min | Guided Practice | Docker Compose |
 | 5 min  | Conclusion | Brief Debrief |
 
@@ -47,8 +45,8 @@ It will ask for privileged access. Confirm.
 A whale icon should appear in the top bar.  Click it and wait for "Docker is running" to appear.
 
 You should be able to run the docker commands below:    
-- `$docker ps` - lists the containers   
-- `$docker images` - lists the local images  
+- `docker ps` - lists the containers   
+- `docker images` - lists the local images  
 
 Alternatively, you can also install Docker directly from the Docker website.:
 - [Download Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
@@ -98,7 +96,7 @@ Let's follow these steps.
 #### Pull down the layered file system
 
 ```
-$docker pull hello-world
+docker pull hello-world
 
 Using default tag: latest
 latest: Pulling from library/hello-world
@@ -111,7 +109,7 @@ docker.io/library/hello-world:latest
 #### Confirm that the image was downloaded
 
 ```
-$docker images
+docker images
 
 REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
 hello-world                             latest              fce289e99eb9        7 months ago        1.84kB
@@ -120,7 +118,7 @@ hello-world                             latest              fce289e99eb9        
 #### Create and run a container from hello-world
 
 ```
-$docker run hello-world
+docker run hello-world
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
@@ -135,7 +133,7 @@ To generate this message, Docker took the following steps:
     to your terminal.
 
 To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
+  docker run -it ubuntu bash
 
 Share images, automate workflows, and more with a free Docker ID:
  https://hub.docker.com/
@@ -147,7 +145,7 @@ For more examples and ideas, visit:
 #### List all containers that are running and not running
 
 ```
-$docker ps -a
+docker ps -a
 
 CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS                      PORTS               NAMES
 02dc34aaae00        hello-world                       "/hello"                 44 seconds ago      Exited (0) 43 seconds ago                       gracious_lehmann
@@ -158,21 +156,21 @@ CONTAINER ID        IMAGE                             COMMAND                  C
 You only need to specify the first few characters of the container ID.
 
 ```
-$docker stop 02dc
+docker stop 02dc
 02dc
 ```
 
 #### Remove a stopped container
 
 ```
-$docker rm 02dc
+docker rm 02dc
 02dc
 ```
 
 #### Remove the layered file system
 
 ```
-$docker rmi hello-world
+docker rmi hello-world
 Untagged: hello-world:latest
 Untagged: hello-world@sha256:65xx0fc08ee6e608ee8dc3317e08eee178cb808ee231803xxxxxd20f
 Deleted: sha256:65xx0fc08ee6e608ee8dc3317e08eee178cb808ee231803xxxxxd20f
@@ -206,7 +204,7 @@ We'll go through all the steps needed to Dockerize a Spring Boot application.
 
 ### Clone the application to Dockerize
 
-`git@github.com:prparekh/spring-boot-websocket-chat-demo.git`
+`https://github.com/prparekh/spring-boot-websocket-chat-demo.git`
 
 Next, we will create a Docker image of this Spring Boot application.
 
@@ -266,7 +264,7 @@ In the above Dockerfile, we created a mount point with path `/tmp` because this 
 
 First, package the application in the form of a jar file using Maven:
 
-`./mvnw clean package`
+`./mvnw clean package -DskipTests`
 
 The above command should create the `websocket-demo-0.0.1-SNAPSHOT.jar` file in the target directory of the project.
 
@@ -322,7 +320,7 @@ However, before you can push anything to Docker Hub, you need an account. If you
 #### Login with your Docker ID
 
 ```
-$docker login
+docker login
 Login with your Docker ID to push and pull images from Docker Hub. 
 Username: gahub
 Password: 
@@ -333,14 +331,14 @@ Login Succeeded
 
 To push a local image to Docker registry, you need to associate the local image with a repository on the docker registry. The notation for the repository on docker registry is `username/repository:tag`.
 
-Note: Replace gahub with your own tag below:
+Note: Replace gahub with your own docker username below:
 
-`$docker tag spring-boot-websocket-chat-demo gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT`
+`docker tag spring-boot-websocket-chat-demo gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT`
 
 Verify that the tagged image shows up with the following command: 
 
 ```
-$docker image ls
+docker image ls
 REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
 spring-boot-websocket-chat-demo         latest              bdbafa81b01c        2 days ago          129MB
 gahub/spring-boot-websocket-chat-demo   0.0.1-SNAPSHOT      bdbafa81b01c        2 days ago          129MB
@@ -352,77 +350,13 @@ openjdk                                 8-jdk-alpine        a3562aa0b991        
 Finally, we push the image to the Docker Hub with the `docker push` command:
 
 ```
-$docker push gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT
+docker push gahub/spring-boot-websocket-chat-demo:0.0.1-SNAPSHOT
 The push refers to repository [docker.io/gahub/spring-boot-websocket-chat-demo]
 965bbdb13844: Pushed 
 ceaf9e1xxxx5: Mounted from library/openjdk 
 9b9b7f3xxxx0: Mounted from library/openjdk 
 f5933xxxx4b5: Mounted from library/openjdk 
 0.0.1-SNAPSHOT: digest: sha256:704xxxx5943d4cxxxxe89a4b69bfxxxx5ca0d35e4xxxx7e677xxxx size: 1159
-```
-
-----
-
-## Running Containers on Heroku (30 min)
-
-Heroku is a platform as a service based on a managed container system with integrated data services and a powerful ecosystem for deploying and running modern apps. 
-
-Sign up for an account with Heroku: https://www.heroku.com/.
-
-Install the Heroku toolbelt\:
-
-**OSX users:**
-
-<a href="https://cli-assets.heroku.com/branches/stable/heroku-osx.pkg">Click this link to download the ToolBelt for OSX</a>. Run the file and follow the prompts to install.
-
-**Ubuntu users:** Run this command from your terminal:
-
-```bash
-wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-```
-
-Once installed, you can use the Heroku command from your command shell. Log in using the email address and password you used when creating your Heroku account.
-
-```bash
-heroku login
-# Enter your Heroku credentials.
-# Email: zeke@example.com
-# Password:
-# ...
-```
-
-Authenticating is required to allow both the Heroku and Git commands to operate.
-
-#### Preparing for Heroku Deploy
-
-1. Log in to Container Registry:
-
-```
-heroku container:login
-```
-
-1. Navigate to the app’s directory and create a Heroku app:
-
-```
-heroku create
-```
-
-1. Build the image and push to Container Registry:
-
-```
-heroku container:push web
-```
-
-1. Then release the image to your app:
-
-```
-heroku container:release web
-```
-
-1. Now open the app in your browser:
-
-```
-heroku open
 ```
 
 -----

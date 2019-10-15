@@ -217,8 +217,6 @@ When we start writing more complex code, there may be times when we forget which
 
 Take a look at some examples:
 
-![typeof](./images/typeof.png)
-
 Make sure to remember the `typeof` command in case you ever need to find out the type of data with which you're working.
 
 > **Fun fact**: You can use `typeof` with or without the parentheses!
@@ -284,8 +282,6 @@ All of the standard arithmetic operators we learned in grade school (addition, s
 If you don't have a background in programming, however, that last operator (the modulus operator) might be new.
 
 The modulus operator shows the remainder of a division problem. It takes two numbers as inputs and returns what's left over from the division. For example, `9` divided by `4` equals `2` with a remainder of `1`.
-
-![Modulus](./images/modulus_operator.png)
 
 ### Modulus in Action
 

@@ -113,11 +113,7 @@ HumanKind vannaWhite = new HumanKind();
 
 Finally, to run our program on IntelliJ, notice the little green arrow on the margin, to the left of our `main` method:
 
-![](resources/execute-main.png)
-
-Give that arrow a left click, then click on "Run HumanKind.main()." That will compile and execute our code and produce output similar to this:
-
-![](resources/execute-main-output.png)
+Give that arrow a left click, then click on "Run HumanKind.main()." That will compile and execute our code.
 
 ----
 
@@ -211,8 +207,6 @@ HumanKind.setAddress("123 Main St, Burbank, CA");
 </details>
 
 > **Tip**: In IntelliJ, if you don't remember the names of the parameters for a particular method, type the method where you want to use it, put your cursor between the parentheses and hit `ctrl+P`. This will show a neat display of the parameters and types.
-
-![](resources/ctrl-p.png)
 
 #### Instance vs. Static Methods
 

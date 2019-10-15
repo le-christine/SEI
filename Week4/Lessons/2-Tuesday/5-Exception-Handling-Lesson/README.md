@@ -220,7 +220,7 @@ Create an app that quizzes users on superhero trivia. Open the `Superheroes` [st
 
 Your app reads the superhero info from an `input.txt` file and stores it in an `ArrayList`. Based on the answers, keep count of every right and wrong one. If the number of right answers is greater than wrong ones, declare the user a winner and write the user's name and the result of the quiz in an `output.txt` file.
 
-You can refer to the solution code [here](/Week4/Code/2-Tuesday/Exception-Handling/Solution-Code/Superheroes).
+You can refer to the solution code [here](https://www.youtube.com/watch?v=oHg5SJYRHA0).
 ***
 
 <a name="conclusion"></a>
