@@ -6,12 +6,12 @@
 
 Time       |    Topic
 ---        | ------------
-9 - 10     | [morning exercise - cloud compare](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/1-Choosing-Cloud-Model-Exercise/)
-10 - 12:00 | [ES6](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/2-ES6-Recap)
-12:00 - 1  | lunch
-1 - 2:30   | [Intro to React](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/4-Intro-React-Lesson/)
-2:30 - 4   | [Components + props lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/5-Components-JSX-Props-Lesson/)
-4 - 5 && HW| [React basics lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/6-Intro-React-Lab)
+9-10     | [morning exercise - cloud compare](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/1-Choosing-Cloud-Model-Exercise/)
+10-12:00 | [ES6](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/2-ES6-Recap)
+12:00-1  | lunch
+1-2:30   | [Intro to React](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/4-Intro-React-Lesson/)
+2:30-4   | [Components + props lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/5-Components-JSX-Props-Lesson/)
+4-5 && HW| [React basics lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/6-Intro-React-Lab)
 
 
 ### Tuesday
