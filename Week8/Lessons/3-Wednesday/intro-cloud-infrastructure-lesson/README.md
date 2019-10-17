@@ -90,8 +90,6 @@ Instead of slicing physical resources, a container engine such as Docker slices 
 ![vm-containers](./images/vms-containers.png)
 [Source](https://www.docker.com/what-container#/package_software)
 
-We'll spend a lot more time talking about containers when we get into Docker and microservices, but they're also important in supporting cloud computing.
-
 <details>
 	<summary>Check: What is the biggest difference between virtualization and containerization?</summary>
 
