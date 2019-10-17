@@ -19,8 +19,6 @@
 | 10 min | Introduction | Overview of logging and monitoring |
 | 20 min | Introduction | Key Monitoring Metrics |
 | 30 min | Introduction | Key Tools |
-| 50 min | Guided Practice | Getting Started with ELK |
-| 50 min | Guided Practice | Instrumenting Hosts |
 | 5 min  | Conclusion  | Review / Recap |
 
 ## Opening (5 min)
