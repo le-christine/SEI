@@ -6,11 +6,11 @@
 
 Time     |    Topic
 ---      | ------------
-9-10     | [morning exercise - cloud compare](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/1-Choosing-Cloud-Model-Exercise/1-Choosing-Cloud-Model-Exercise.md)
+9-10     | [morning exercise - cloud compare](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/1-Choosing-Cloud-Model-Exercise/)
 10-11:30 | [ES6](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/2-ES6-Recap)
 11:30-2  | [Babel lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/3-Babel-Lab) / lunch
-2-3:30   | [Intro to React](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/4-Intro-React-Lesson/4-Intro-React-Lesson.md)
-3:30-5   | [Components + props lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/5-Components-JSX-Props-Lesson/5-Components-JSX-Props-Lesson.md)
+2-3:30   | [Intro to React](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/4-Intro-React-Lesson/)
+3:30-5   | [Components + props lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/1-Monday/5-Components-JSX-Props-Lesson/)
 HW       | [React basics lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/1-Monday/6-Intro-React-Lab)
 
 
@@ -20,9 +20,9 @@ Time     |    Topic
 ---      | ------------
 9-10     | [morning exercise - Recursion](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/2-Tuesday/1-Intro-To-Recursion)
 10-11:30 | [Components lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/2-Tuesday/2-React-Components-Lab)
-11:30-2  | [State lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/3-React-State/3-React-State.md) / lunch
-2-3:30   | [State lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/4-React-Calculator-Lab/4-React-Calculator-Lab.md)
-3:30-5   | [Unidirectional data flow lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/5-Unidirectional-Data-Flow/5-Unidirectional-Data-Flow.md)
+11:30-2  | [State lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/3-React-State/) / lunch
+2-3:30   | [State lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/4-React-Calculator-Lab/)
+3:30-5   | [Unidirectional data flow lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/2-Tuesday/5-Unidirectional-Data-Flow/)
 HW       | [ES6 review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/2-Tuesday/6-ES6-HW)
 
 
@@ -30,22 +30,22 @@ HW       | [ES6 review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tre
 
 Time     |    Topic
 ---      | ------------
-9-10     | [morning exercise - sorting algos](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/1-Morning-Exercise-Sorting-Algorithms/1-Morning-Exercise-Sorting-Algorithms.md)
+9-10     | [morning exercise - sorting algos](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/1-Morning-Exercise-Sorting-Algorithms/)
 10-11:30 | [Component lifecycle lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/3-Wednesday/2-Component-Lifecycle-Lesson)
 11:30-2  | [Lifecycle lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/3-Wednesday/3-React-Lifecycle-Lab)  / lunch
-2-4      | [React Router](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/4-React-Router-Lesson/4-React-Router-Lesson.md)
-4-5      | [Router lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/5-React-Router-Lab/5-React-Router-Lab.md)
-HW       | finish [Router lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/5-React-Router-Lab/5-React-Router-Lab.md)
+2-4      | [React Router](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/4-React-Router-Lesson/)
+4-5      | [Router lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/5-React-Router-Lab/)
+HW       | finish [Router lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/3-Wednesday/5-React-Router-Lab/)
 
 
 ### Thursday
 
 Time     |    Topic
 ---      | ------------
-9-10     | [morning exercise - merge sort](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/1-Morning-Exercise-Merge-Sort/1-Morning-Exercise-Merge-Sort.md)
+9-10     | [morning exercise - merge sort](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/1-Morning-Exercise-Merge-Sort/)
 10-12    | [Component Styling](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/4-Thursday/2-Styling-Components-In-React)
-12-5     | [React lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/3-React-Film-Lab/3-React-Film-Lab-Starter-Code/React-Film-Lab.md) / lunch
-HW       | [finish lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/3-React-Film-Lab/3-React-Film-Lab-Starter-Code/React-Film-Lab.md), [review / prep testing lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/5-Friday/1-Testing-React-With-Jest-And-Enzyme)
+12-5     | [React lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/3-React-Film-Lab/3-React-Film-Lab-Starter-Code/) / lunch
+HW       | [finish lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/4-Thursday/3-React-Film-Lab/3-React-Film-Lab-Starter-Code/), [review / prep testing lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/5-Friday/1-Testing-React-With-Jest-And-Enzyme)
 
 
 ### Friday
@@ -54,6 +54,6 @@ Time       |    Topic
 ---        | ------------
 9-10:30    | Outcomes
 10:30-2:30 | [Jest lesson](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week9/Lessons/5-Friday/1-Testing-React-With-Jest-And-Enzyme)
-2:30-4     | [finish jest lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/2-Jest-Testing-Lab/2-Jest-Testing-Lab.md)
-4-5        | [Week in review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/3-Week-In-Review/3-Week-In-Review.md)
-HW         | [finish jest lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/2-Jest-Testing-Lab/2-Jest-Testing-Lab.md)
+2:30-4     | [finish jest lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/2-Jest-Testing-Lab/)
+4-5        | [Week in review](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/3-Week-In-Review/)
+HW         | [finish jest lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week9/Lessons/5-Friday/2-Jest-Testing-Lab/)
