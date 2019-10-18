@@ -5,7 +5,6 @@ duration: "3:00"
 creator:
     name: Alex Wasson
 ---
-****Insert duration****
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Testing React with Jest and Enzyme
 
