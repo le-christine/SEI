@@ -18,7 +18,6 @@ class Article extends Component {
             {ingredients}
           </ul>
         </div>
-
         <h1>Preparation</h1>
         <p>
         {this.props.recipe.preparation}
