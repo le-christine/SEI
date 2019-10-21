@@ -8,6 +8,13 @@ const recipe = recipes[0];
 class App extends Component {
   render() {
     return (
+      // components :
+      // recipeHeader - title, author name, source
+      // recipePrep - active prep, total prep, servings
+      // recipeImage - image
+      // recipeIngredients = ingredients title, ingredients
+      // recipeInstructions - preparation
+      
       <div class="flex-container">
         <nav class="nav">
           <button class="btn btn-default">Previous Recipe</button>
