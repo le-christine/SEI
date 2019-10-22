@@ -9,19 +9,42 @@ import RecipePrep from './RecipePrep.js';
 import recipes from '../data/recipes';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      recipes: recipes,
+      currentRecipeIndex: 0
+    }
+    this.onClickPrev = this.onClickPrev.bind(this);
+    this.onClickNext = this.onClickNext.bind(this);
+  }
+
+  onClickPrev() {
+    if (this.state.currentRecipeIndex > 0) {
+      this.setState({
+        currentRecipeIndex: this.state.currentRecipeIndex - 1
+      })
+    }
+  }
+
+  onClickNext() {
+    if (this.state.currentRecipeIndex < this.state.recipes.length - 1) {
+      this.setState({
+        currentRecipeIndex: this.state.currentRecipeIndex + 1
+      })
+    }
+  }
+
   render() {
-    let recipeList = recipes.map((data) =>
-    <div>
-    <RecipeHeader recipe={data}/>
-    <RecipePrep recipe={data}/>
-    <Article recipe={data}/>
-    </div>
-  )
 
     return (
       <div className="flex-container">
-        <Nav/>
-        {recipeList}
+        <Nav onClickPrev={this.onClickPrev} onClickNext={this.onClickNext}/>
+        <RecipeHeader recipe={this.state.recipes[this.state.currentRecipeIndex]}/>
+        <RecipePrep recipe={this.state.recipes[this.state.currentRecipeIndex]}/>
+        <Article recipe={this.state.recipes[this.state.currentRecipeIndex]}/>
         <Footer/>
       </div>
     );
