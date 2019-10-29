@@ -165,23 +165,6 @@ The `expect` call isn't very useful by itself: it needs to be followed by a matc
 
 #### Run That Test!
 
-We're ready to run our test. In your terminal run `npx jest`. `npx`, the node package runner, will grab Jest and start it with the default configurations. Jest should take a moment to run, then populate your screen with its results. If everything worked as expected, near the end of the output, there should be a line indicating that 1 suite failed and 1 suite passed. 
-
-Wait, what? Where'd that second test suite come from? Why did it fail?
-
-First, where it came from: by default, `create-react-app` creates not just App.js and App.css, but App.test.js as well. The default `App.test.js` has a simple test to check that the App component mounts. Unfortunately, it didn't work.
-
-<details>
-	<summary>Why might the default `App.test.js` function have failed in our test?</summary>
-
-Although `npx jest` is the easiest way to run Jest, and is useful in some circumstances, running Jest without any configuration can cause problems. The specific problem we ran into was that `create-react-app` uses ES6 modules. node doesn't support ES6 modules natively, and Jest doesn't use Babel or any other transpiler without configuration, so Jest couldn't import `App.js` and didn't know what to do when `App` was referenced.
-
-You are welcome to look into the [Jest configuration documentation](https://jestjs.io/docs/en/configuration), but `create-react-app` and `react-scripts` give us a pre-configured command to use: `npm test`.
-
-</details>
-
-Let's run our tests again, this time using `create-react-app`'s call to Jest, `npm test`.
-
 `npm test` gives us two nice features: it configures Jest to use Babel, so we can use ES6 modules and other advanced JavaScript features, and it opens Jest up in watch mode, so that we can leave Jest running and it will continually test our application as we make updates. Something to notice, however: while default Jest will run any test in the program folder, `npm test` will only find tests in the `src` folder and its subdirectories.
 
 ### Failed Tests and `expect().not`

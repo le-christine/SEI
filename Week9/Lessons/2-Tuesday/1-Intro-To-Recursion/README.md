@@ -217,25 +217,3 @@ Here's a visualization of what's happening as functions are called when running 
 You can see the algorithm splitting off the C's on each end and recursing on the String `"ivi"`. It recurses again down to just the String `"v"`. Single-character Strings are a base case. The algorithm hits the base case and returns `true`. We can see `true` return from each function until it returns all the way to the top of the first function call.
 
 ![call stack visualization of palindrome](assets/call-stack-palindrome.png)
-
-```java
-public static boolean isPalindrome(String ss) {
-  // Base case: empty Strings and single-characters are considered palindromes.
-  if (ss.length() < 2) {
-    return true;
-  } else {
-    // get the first and last letters
-    char first = ss.charAt(0)
-    char last = ss.charAt(ss.length() - 1);
-
-    // compare the first and last letters.
-    if (first != last) {
-      return false;
-    } else {
-      // get the middle of the string
-      String middle = ss.substring(1, ss.length() - 2);
-      return isPalindrome(middle);
-    }
-  }
-}
-```

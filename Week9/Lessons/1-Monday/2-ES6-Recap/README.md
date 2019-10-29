@@ -111,6 +111,18 @@ What is the output? How does it compare to the answers you got yourself?
 
 ----
 
+## Command Line JavaScript and node.js
+
+JavaScript was created as a language to run exclusively in browsers (and it still mostly is), but JavaScript's utility exploded with the introduction of node.js, a command line tool for running JavaScript and giving it access to computer file systems. Although node.js (or just node) wasn't the first project for running JavaScript outside of browsers, it is by far the most popular.
+
+node can be downloaded through many package managers. Once it is downloaded and installed, it should give access to three command-line tools:
+
+    node: this is the basic command for running JavaScript files and scripts. For node beginners, this is most useful for running without any arguments, which will open a node REPL similar to the console in most browsers.
+    npm: the node package manager is used for downloading, updating, configuring, and generally managing JavaScript libraries, and will likely be the most commonly used node tool for most developers.
+    npx: this is a package runner, and is used to retrieve and immediately execute node packages. Certain node packages are designed as command line tools themselves, and npx is a way to execute them. For an example, try npx cowsay moo.
+
+----
+
 ## Conclusion (5 min)
 
 This all sounds great, but can we just get back to React now? 

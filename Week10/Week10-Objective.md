@@ -6,11 +6,11 @@
 
 Time     |    Topic
 ---      | ------------
-9-10     | [morning exercise - binary search](https://git.generalassemb.ly/GA-Cognizant/interview-prep/blob/master/comp-sci-exercises/binary-search.md)
-10-11    | [APIs, AJAX, fetch refresher](https://git.generalassemb.ly/GA-Cognizant/javascript-and-apis/tree/master/api-refresher-movie-lab)
-11-12:30 | [React and APIs](https://git.generalassemb.ly/GA-Cognizant/react-redux/tree/master/react-third-party-apis-lesson)
-12:30-3  | [React + APIs lab](https://git.generalassemb.ly/GA-Cognizant/react-redux/tree/master/react-api-lab) / lunch
-3-5      | [Deploying React apps](https://git.generalassemb.ly/GA-Cognizant/react-redux/tree/master/react-deploy)
+9-10     | [morning exercise - binary search](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/blob/master/Week10/Lessons/1-Monday/binary-search.md)
+10-11    | [APIs, AJAX, fetch refresher](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week10/Lessons/1-Monday/api-refresher-movie-lab)
+11-12:30 | [React and APIs](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week10/Lessons/1-Monday/react-third-party-apis-lesson)
+12:30-3  | [React + APIs lab](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week10/Lessons/1-Monday/react-api-lab) / lunch
+3-5      | [Deploying React apps](https://git.generalassemb.ly/sureshmelvinsigera/AMEX/tree/master/Week10/Lessons/1-Monday/react-deploy)
 HW       | [Deployment lab](https://git.generalassemb.ly/GA-Cognizant/react-redux/tree/master/react-deploy-lab)
 
 

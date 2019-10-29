@@ -5,7 +5,6 @@ duration: "3:00"
 creator:
     name: Alex Wasson
 ---
-****Insert duration****
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Testing React with Jest and Enzyme
 
@@ -355,19 +354,9 @@ This shouldn't be too surprising, but let's be sure to notice two things before 
 
 ----
 
-## Test Coverage and Testing Independent React Components with Enzyme (30 min)
+## Testing Independent React Components with Enzyme (30 min)
 
 Next, we'll learn to apply what we've learned about testing to React projects. Open up `src/App.test.js`.
-
-### Coverage Reports
-
-It currently only contains the single basic test that `create-react-app` builds automatically. If we open up `src/App.js`, however, we'll find that the application is significantly more complicated than the default app. Before we start writing tests, we can check how thorough our current tests are with a **coverage report**. A **coverage report**, which is a feature provided automatically with many test runners (including Jest) and available to most others through plugins, will, as our tests run, record the process of the tests stepping through our code and report what percentage of lines were processed and what percentage weren't, reporting at both the application and file level, and should give us a file by file report of what lines aren't covered, so we can add tests to address the issue.
-
-To generate a coverage report in Jest, stop your running test process with ctrl-c, and then start it again with `npm test -- --coverage`. If you receive a message about no changes since the last test, follow the instructions and press `a` to rerun the tests anyway. If, after the tests run, the coverage report is still empty, try making a minor update to `App.js`, like adding a new line.
-
-The report tells us, among a lot of other things, that we have 80% line coverage in `App.js`. If you look at the existing test, and read carefully through `App.js`, you'll see that that's not quite true &mdash; there are clearly sections of JSX that our test should not have reached by just rendering the component, but none of the lines in the reports uncovered line section come from the JSX. Jest doesn't read JSX as well as it does normal JavaScript, and so, unfortunately, we shouldn't rely on Jest coverage reports to tell us how well we're testing JSX.
-
-The report also tells us that `App.js` has an uncovered line number: line 15, if you didn't add a new line. Line 15 is from the internal block of the `updateSelectedFeature` method, and it isn't being tested because, in our test suite, that function isn't being called. To call it, we will need to mount the App component and have access to some of its features. To do that, we are going to use **Enzyme**.
 
 ### Basic Enzyme Methods: `shallow`, `instance`, and `state`
 
