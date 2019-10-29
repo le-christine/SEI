@@ -1,57 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class CourseNewForm extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      newCourse: {}
-    }
-  }
-
-  handleChange = (e) => {
-    const attributeToChange = e.target.name;
-    const newValue = e.target.value;
-
-    const updatedNewCourse = {...this.state.newCourse};
-    updatedNewCourse[attributeToChange] = newValue;
-    this.setState({newCourse:updatedNewCourse});
-  }
-
-  render() {
-    return (
-      <div>
-        <h2>Create a new course</h2>
-
-        <form>
-          <div>
-            <label htmlFor="title">Name</label>
-            <input
-              name="name"
-              type="text"
-              onChange={this.handleChange}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="description">Code</label>
-            <input
-              name="code"
-              type="text"
-              onChange={this.handleChange}
-            />
-          </div>
-
-          <div>
-            <input type="submit" value="Create Course"/>
-          </div>
-        </form>
-        <hr/>
-        <hr/>
-      </div>
-    )
-  }
-
+function CourseNewForm(props) {
+  return (
+    <div>
+    <h2>Create New Course</h2>
+    <form onSubmit={props.submitForm}>
+    <label htmlFor="code">Code</label>
+    <input
+    type="text"
+    label="code"
+    value={props.code}
+    onChange={props.handleCodeChange}
+    id="title"
+    placeholder="code"
+    />
+    <label htmlFor="name">Name</label>
+    <input
+    type="text"
+    label="name"
+    value={props.name}
+    onChange={props.handleNameChange}
+    id="name"
+    placeholder="name"
+    />
+    <input type="submit" value="Create Course"/>
+    </form>
+    </div>
+  )
 }
+
 
 export default CourseNewForm;
