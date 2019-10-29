@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+//Custom components
 import Course from './Course';
+import CourseNewForm from './CourseNewForm';
 
 class CoursesList extends Component {
   constructor(props) {
@@ -31,6 +33,7 @@ class CoursesList extends Component {
     return (
       <div>
       <h1>Courses Board</h1>
+      <CourseNewForm/>
       {this.state.courses.map((course, index) => {
         return (
           <Course
