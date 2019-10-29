@@ -13,7 +13,6 @@ class CoursesList extends Component {
       code: '',
       name: ''
     }
-
   }
 
   componentDidMount() {
@@ -54,6 +53,32 @@ class CoursesList extends Component {
         name: ''
       });
     })
+    .catch(err => console.log(err))
+  }
+
+  deleteCourse = (course, index) => {
+    console.log(course.code + '\n' + course.name)
+    fetch('/course/delete', {
+      method: 'delete',
+      headers: {
+        'Accept' : 'application/json, text/plain, */*',
+        'Content-Type' : 'application/json'
+      },
+      body: JSON.stringify({
+        code: course.code,
+        name: course.name
+      })
+    })
+    .then(res => res.json())
+    .then(res => console.log(res))
+    .then((res) => {
+      let courses= this.state.courses;
+      courses.splice(index,1);
+      this.setState({
+        courses
+      })
+    })
+    .catch(err => console.log(err))
   }
 
 
@@ -71,17 +96,20 @@ class CoursesList extends Component {
       <div>
       <h1>Courses Board</h1>
       <CourseNewForm
+        title = {"Create a new course"}
         code = {this.state.code}
         name = {this.state.name}
         handleCodeChange={this.handleCodeChange}
         handleNameChange={this.handleNameChange}
         submitForm={this.submitForm}
       />
+
       {this.state.courses.map((course, index) => {
         return (
           <Course
           {...course}
           key={index}
+          delete={() => this.deleteCourse(course, index)}
           />
         )
       })}

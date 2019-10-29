@@ -6,6 +6,7 @@ class Course extends Component {
       <div>
         <div>{this.props.name}</div>
         <div>{this.props.code}</div>
+        <button onClick={this.props.delete}>Delete!</button>
         <hr/>
       </div>
     )

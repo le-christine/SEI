@@ -3,7 +3,8 @@ import React from 'react';
 function CourseNewForm(props) {
   return (
     <div>
-    <h2>Create New Course</h2>
+    <hr/>
+    <h2>{props.title}</h2>
     <form onSubmit={props.submitForm}>
     <label htmlFor="code">Code</label>
     <input
@@ -25,6 +26,7 @@ function CourseNewForm(props) {
     />
     <input type="submit" value="Create Course"/>
     </form>
+    <hr/>
     </div>
   )
 }
