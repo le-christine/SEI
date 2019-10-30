@@ -11,7 +11,9 @@ class CoursesList extends Component {
     this.state = {
       courses: [],
       code: '',
-      name: ''
+      name: '',
+      updateCode: '',
+      updateName: ''
     }
   }
 
@@ -81,7 +83,7 @@ class CoursesList extends Component {
     .catch(err => console.log(err))
   }
 
-  updateCourse = (course, index) => {
+  updateCourse = (index) => {
     fetch('/course/update', {
       method: 'put',
       headers: {
@@ -89,15 +91,15 @@ class CoursesList extends Component {
         'Content-Type' : 'application/json'
       },
       body: JSON.stringify({
-        code: course.code,
-        name: course.name
+        code: this.state.updateCode,
+        name: this.state.updateName
       })
     })
     .then(res => res.json())
     .then((res) => {
       let courses = this.state.courses;
-      courses[index]['code'] = course.code;
-      courses[index]['name'] = course.name;
+      courses[index]['code'] = this.state.updateCode;
+      courses[index]['name'] = this.state.updateName;
       this.setState({
         courses
       })
@@ -110,6 +112,14 @@ class CoursesList extends Component {
 
   handleNameChange = (e) => {
     this.setState({name: e.target.value})
+  }
+
+  handleCodeUpdateChange = (e) => {
+    this.setState({updateCode: e.target.value})
+  }
+
+  handleNameUpdateChange = (e) => {
+    this.setState({updateName: e.target.value})
   }
 
 
@@ -139,16 +149,16 @@ class CoursesList extends Component {
           <input
             type="text"
             placeholder="new course code"
-            value={this.code}
-            onChange={this.handleCodeChange}>
+            value={this.state.updateCode}
+            onChange={this.handleCodeUpdateChange}>
           </input>
           <input
             type="text"
             placeholder="new course name"
-            value={this.name}
-            onChange={this.handleNameChange}>
+            value={this.state.updateName}
+            onChange={this.handleNameUpdateChange}>
           </input>
-          <input type="submit"/>
+          <input type="submit" onClick={() => this.updateCourse(index)}/>
           <hr/>
           </div>
         )
