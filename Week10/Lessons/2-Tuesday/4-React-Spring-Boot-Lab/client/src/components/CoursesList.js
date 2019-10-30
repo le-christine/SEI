@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //Custom components
 import Course from './Course';
 import CourseNewForm from './CourseNewForm';
+import UpdateCourse from './UpdateCourse';
 
 class CoursesList extends Component {
   constructor(props) {
@@ -145,28 +146,20 @@ class CoursesList extends Component {
           delete={() => this.deleteCourse(course, index)}
           />
 
-          <p>Update course</p>
-          <input
-            type="text"
-            placeholder={course.code}
-            value={this.state.updateCode}
-            onChange={this.handleCodeUpdateChange}
-            readOnly>
-          </input>
-          <input
-            type="text"
-            placeholder="new course name"
-            value={this.state.updateName}
-            onChange={this.handleNameUpdateChange}>
-          </input>
-          <input type="submit" onClick={() => this.updateCourse(index)}/>
-          <hr/>
-          </div>
+          <UpdateCourse
+          update={() => this.updateCourse(index)}
+          updateCode = {this.updateCode}
+          updateName = {this.updateName}
+          handleCodeUpdateChange = {this.handleCodeUpdateChange}
+          handleNameUpdateChange = {this.handleNameUpdateChange}
+          updateCourse = {() => this.updateCourse(index)}
+          />
+
+        </div>
         )
       })}
-      </div>
-    )
-  }
-}
+  </div>
+  )}
 
+}
 export default CoursesList;
