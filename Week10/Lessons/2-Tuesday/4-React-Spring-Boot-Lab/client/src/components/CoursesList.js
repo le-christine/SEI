@@ -81,6 +81,28 @@ class CoursesList extends Component {
     .catch(err => console.log(err))
   }
 
+  updateCourse = (course, index) => {
+    fetch('/course/update', {
+      method: 'put',
+      headers: {
+        'Accept' : 'application/json, text/plain, */*',
+        'Content-Type' : 'application/json'
+      },
+      body: JSON.stringify({
+        code: course.code,
+        name: course.name
+      })
+    })
+    .then(res => res.json())
+    .then((res) => {
+      let courses = this.state.courses;
+      courses[index]['code'] = course.code;
+      courses[index]['name'] = course.name;
+      this.setState({
+        courses
+      })
+    })
+  }
 
   handleCodeChange = (e) => {
     this.setState({code: e.target.value})
@@ -106,11 +128,29 @@ class CoursesList extends Component {
 
       {this.state.courses.map((course, index) => {
         return (
+          <div>
           <Course
           {...course}
           key={index}
           delete={() => this.deleteCourse(course, index)}
           />
+
+          <p>Update course</p>
+          <input
+            type="text"
+            placeholder="new course code"
+            value={this.code}
+            onChange={this.handleCodeChange}>
+          </input>
+          <input
+            type="text"
+            placeholder="new course name"
+            value={this.name}
+            onChange={this.handleNameChange}>
+          </input>
+          <input type="submit"/>
+          <hr/>
+          </div>
         )
       })}
       </div>
