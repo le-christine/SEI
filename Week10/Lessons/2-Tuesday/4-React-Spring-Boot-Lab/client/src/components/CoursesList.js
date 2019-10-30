@@ -148,9 +148,10 @@ class CoursesList extends Component {
           <p>Update course</p>
           <input
             type="text"
-            placeholder="new course code"
+            placeholder={course.code}
             value={this.state.updateCode}
-            onChange={this.handleCodeUpdateChange}>
+            onChange={this.handleCodeUpdateChange}
+            readOnly>
           </input>
           <input
             type="text"
